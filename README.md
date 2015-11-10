@@ -1,7 +1,7 @@
-TNC Coastal Resiliance Gulf of Mexico
+TNC Freshwater Network
 =====================
 
-An implementation of The Nature Conservency Coastal Resilience [GeositeFramework](https://github.com/CoastalResilienceNetwork/GeositeFramework) for the Gulf of Mexico
+An implementation of The Nature Conservency Coastal Resilience and Freshwater Network [GeositeFramework](https://github.com/CoastalResilienceNetwork/GeositeFramework)
 
 
-http://maps.coastalresilience.org/gulfmex/
+http://maps.freshwaternetwork.org/
