@@ -1,0 +1,111 @@
+﻿<div>
+    <div id="template-SabineApp">
+        <div style="padding:10px 10px 10px 10px">
+            <div align="right"><a id="aThresholds" href="javascript:void(0)">View Monthly Salinity Thresholds</a></div>
+            <div>
+                <input type="radio" id="radFull" name="extent" checked />&nbsp;Full Extent&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="radLake" name="extent" />&nbsp;Lake Extent
+            </div>
+            <div id="divLanding">
+                <div align="center" style="padding-top:15px">
+                    <table style="text-align:left">
+                        <thead>
+                            <tr>
+                                <th style="font-weight:bold;text-align:center" colspan= "2">Test Data</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodyInputs">
+                            <tr>
+                                <td colspan= "2">
+                                    <span style="font-weight:bold">Sample Month:</span>&nbsp;
+                                    <select id="selMonth" style="width:175px">
+                                        <option value="January">January</option>
+                                        <option value="February">February</option>
+                                        <option value="March">March</option>
+                                        <option value="April">April</option>
+                                        <option value="May">May</option>
+                                        <option value="June" selected>June</option>
+                                        <option value="July">July</option>
+                                        <option value="August">August</option>
+                                        <option value="September">September</option>
+                                        <option value="October">October</option>
+                                        <option value="November">November</option>
+                                        <option value="December">December</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="275">                                  
+                                    <span style="font-weight:bold">Modeled Outflow at Dam (cfs):</span>&nbsp;<span id="spanDamFlow"></span>
+                                </td>
+                                <td width= "50" align="right"><img src="plugins/sabine_app/images/system_help.png" title="Outflow (modeled) from Toledo Bend Reservoir" id="imgDamFlow" /></td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div id="damFlow"></div>
+                                    <label for="damFlow"><span id="spanDamFlowMin"></span><span id="spanDamFlowMax" style="position:relative;left:235px"></span></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align:middle;"><span style="font-weight:bold">Sabine Pass Water Level (ft):</span>&nbsp;<span id="spanWaterLevel"></span></td>
+                                <td align="right">
+                                    <img src="plugins/sabine_app/images/system_help.png" id="imgWaterLevel" title="Water level at NOAA buoy at Sabine Pass" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div id="waterLevel"></div>
+                                    <label for="waterLevel"><span id="spanWaterLevelMin"></span><span id="spanWaterLevelMax" style="position:relative;left:245px"></span></label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><span style="font-weight:bold">Neches River Flow (cfs):</span>&nbsp;<span id="spanRiverFlow"></span>
+                                </td><td>
+                                    <div style="display:inline;text-align:right"><img src="plugins/sabine_app/images/system_help.png" id="imgRiverFlow" title="Daily mean recorded flow at USGS Station 08041780 Neches River" /></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div id="riverFlow"></div>
+                                    <label for="riverFlow"><span id="spanRiverFlowMin"></span><span id="spanRiverFlowMax" style="position:relative;left:250px"></span></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center" colspan="2">
+                                    <button id="btnCalculate" style="font-weight:bold">Calculate Results</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div><!--padding div-->
+        </div>
+        <div id="divResults" style="display:none">
+            <div>
+                <div style="padding:25px 0px 5px 10px"><span style="font-weight:bold">Sample Month:</span>&nbsp;<span id="spanSampleMonthDisplay"></span></div>
+                <div style="padding:5px 0px 5px 10px"><span style="font-weight:bold">Modeled Outflow at Dam (cfs):</span>&nbsp;<span id="spanDamFlowDisplay"></span></div>
+                <div style="padding:5px 0px 5px 10px"><span style="font-weight:bold">Sabine Pass Water Level (ft):</span>&nbsp;<span id="spanWaterLevelDisplay"></span></div>
+                <div style="padding:5px 0px 5px 10px"><span style="font-weight:bold">Neches River Flow (cfs):</span>&nbsp;<span id="spanRiverFlowDisplay"></span></div>
+            </div>
+            <div align="center" id="divResults" style="padding-top:15px">
+                <div style="font-weight:bold">Results</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Station</th>
+                            <th style="text-align:center">Probability<br />Below</th>
+                            <th style="text-align:center">Probability<br />Above</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyResults"></tbody>
+                </table>
+                <button id="btnStartOver" style="font-weight:bold">Start Over</button>
+            </div>
+        </div>
+        <div id="dialog-message" title="Salinity Thresholds">
+            <img src="plugins/sabine_app/images/SalinityRange.png" />
+        </div>
+    </div>
+</div>

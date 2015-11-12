@@ -1,0 +1,32 @@
+[
+    {
+        "agsSource": {
+            "url": "http://50.18.215.52/arcgis/rest/services/",
+            "folderTitle": "Louisiana Freshwater",
+            "folders": [
+                {
+                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
+                    "name": "",
+                    "services": [
+                        { "name": "Hydrologic_Alteration_Features", "type": "dynamic",
+                            "showLayers": [
+                                {"id":0, "parentLayerId":-1, "downloadUrl": "downloads/canals.zip"},
+                                {"id":1, "parentLayerId":-1},
+                                {"id":2, "parentLayerId":-1}]},
+                        { "name": "HUC_8_Hydrologic_Alteration_Assessments", "type": "dynamic"},
+                        { "name": "HUC_12_Hydrologic_Alteration_Assessments", "type": "dynamic"},
+						{ "name": "LDEQ_Subsegment_Hydrologic_Alteration_Assessments", "type": "dynamic",
+						"isNew": { "startDate": "10/7/2014", "endDate": "2/28/2014" }
+						},
+						{ "name": "LA_Parishes_Hydrologic_Alteration_Assessments", "type": "dynamic",
+						"isNew": { "startDate": "10/7/2014", "endDate": "2/28/2014" }
+						},
+						{ "name": "U_S__Congressional_Districts_Hydrologic_Alteration_Assessments", "type": "dynamic",
+						"isNew": { "startDate": "12/15/2014", "endDate": "2/28/2014" }
+						}
+                     ]
+                }
+            ]
+        }
+    }
+]

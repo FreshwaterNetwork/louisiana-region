@@ -1,0 +1,4 @@
+{
+    "locatorServiceUrl": "http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/find?",
+    "defaultZoomLevel": 7
+}

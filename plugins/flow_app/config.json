@@ -1,0 +1,98 @@
+﻿[
+	{
+		"toolbarName": "Water Flow App",
+		"dialogWidth": 625,
+		"dialogHeight": 625,
+		"WaterFALLService":"http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
+		"infoGraphic":"plugins/flow_app/slr_flooding_c.jpg",
+		"hydrographPath":"http://ec2-54-81-38-200.compute-1.amazonaws.com/static/tnc/Baseline_hydrographs_OCT2015/Baseline_hydrograph_",
+		"ecochangePath":"http://ec2-54-81-38-200.compute-1.amazonaws.com/static/tnc/Final_Figs/",
+		"layers":{
+			"HUC8":{
+				"service":"http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Watersheds/MapServer/0",
+				"displayName": "SUBBASIN",
+				"LayerID":"FlowAppHuc8Layer",
+				"legendName":"8 Digit Basins (HUC 8)",
+				"basinID":"HUC_8",			
+				"symbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": [255, 255, 255, 1],
+                    "outline": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [110, 110, 110],
+                        "width": 2
+                    }
+				}
+			},
+			"HUC12":{
+				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/LASingleMetrics/MapServer/0",
+				"displayName": "SingleMetrics.huc12_name",
+				"basinID":"LA_HUC12.huc_12",
+				"LayerID": "FlowAppHuc12Layer",
+				"metricPrefix":"SingleMetrics.",
+				"legendName":"12 Digit Basins (HUC 12)",
+				"symbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                   "color": [255, 255, 255, 1],
+                    "outline": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [110, 110, 110],
+                        "width": 2
+                    }
+                }
+			},
+			"NavigationResults":{
+				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/LASingleMetrics/MapServer/0",
+				"displayName": "SingleMetrics.huc12_name",
+				"basinID":"LA_HUC12.huc_12",						
+				"LayerID":"FlowAppNavResults",
+				"metricPrefix":"SingleMetrics.",
+				"legendName":"Navigation Results",
+				"symbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                   "color": [255, 255, 255, 1],
+                    "outline": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [51,255,255],
+                        "width": 2
+                    }
+                }
+			},
+			"Catchments":{
+				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/LACatchments/MapServer/0",
+				"displayName": "featureid",
+				"basinID":"HUC12",
+				"LayerID": "FlowAppCatchments",
+				"legendName":"NHDPlus Catchments",
+				"symbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                   "color": [255, 255, 255, 1],
+                    "outline": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [110, 110, 110],
+                        "width": 1
+                    }
+                }
+			},
+			"StreamsLowRes":{
+				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/LA_Flowlines/MapServer/0",
+				"LayerID": "FlowAppStreamsLowRes",
+				"legendName":"Streams"
+			},
+			"StreamsMedRes":{
+				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/LA_Flowlines/MapServer/1",
+				"LayerID": "FlowAppStreamsMedRes",
+				"legendName":"Streams"
+			}
+
+		}
+	}
+]
