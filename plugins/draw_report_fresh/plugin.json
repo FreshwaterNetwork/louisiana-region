@@ -1,8 +1,0 @@
-{    
-	"css": [
-        "plugins/draw_report_fresh/draw_report.css"
-    ],
-    "use": {
-        "underscore": { "attach": "_" }
-    }
-}
