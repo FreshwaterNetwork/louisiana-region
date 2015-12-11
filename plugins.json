@@ -1,20 +1,24 @@
 {
     "plugins": [
         {
-            "repo": "eca",
-            "name": "eca"
+            "repo": "hydro_alteration",
+            "name": "hydro_alteration",
+			"org": "FreshwaterNetwork"
         },
         {
-            "repo": "future_habitat",
-            "name": "future_habitat"
+            "repo": "HydroFlow",
+            "name": "HydroFlow",
+			"org": "FreshwaterNetwork"
         },
         {               
-            "repo": "explorer",
-            "name": "restoration_explorer"
+            "repo": "water_quality",
+            "name": "water_quality",
+			"org": "FreshwaterNetwork"
         },
         {   
-            "repo": "explorer",
-            "name": "risk_explorer"
+            "repo": "OysterFlow",
+            "name": "OysterFlow",
+			"org": "FreshwaterNetwork"
         }
     ]
 }
