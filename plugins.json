@@ -19,6 +19,18 @@
             "repo": "OysterFlow",
             "name": "OysterFlow",
 			"org": "FreshwaterNetwork"
+<<<<<<< HEAD
         }
+=======
+        },
+		{
+			"repo": "draw-and-report",
+			"name": "draw_report_fresh"
+		},
+		{
+			"repo": "feature-compare",
+			"name": "feature_compare"
+		}
+>>>>>>> refs/remotes/origin/master
     ]
 }
