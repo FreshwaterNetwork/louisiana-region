@@ -1,27 +1,21 @@
 [
     {
         "agsSource": {
-            "url": "http://50.18.215.52/arcgis/rest/services/",
-            "folderTitle": "Louisiana Freshwater",
+            "url": "http://54.241.26.242:6080/arcgis/rest/services/LA_Freshwater",
+            "folderTitle": "LA_Map_Layers",
             "folders": [
                 {
-                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
-                    "name": "",
+									"name": "",
                     "services": [
-                        { "name": "River_and_Stream_Features", "type": "dynamic",
-                        "isNew": { "startDate": "4/30/2014", "endDate": "5/30/2014" },
-                            "showLayers": [
-                                {"id":0, "parentLayerId":-1, "downloadUrl": "downloads/majr_streams_rivers.zip"}]},
-                        { "name": "Watersheds", "type": "dynamic"},
-						{ "name": "Political_Boundaries", "type": "dynamic"},
-                        { "name": "Managed_Areas", "type": "dynamic"},
-                        { "name": "Land_Cover", "type": "dynamic"},
-						{ "name": "Wetlands", "displayName": "National Wetlands Inventory", "type": "dynamic",
-						"isNew": { "startDate": "8/28/2014", "endDate": "10/30/2014" }
-						}
-                    ]
-                }
-            ]
-        }
+											{ "name": "Layers", "type":"dynamic", "displayName":"Watersheds", "showLayers": [
+															{"id":0, "parentLayerId":-1 },
+															{"id":1, "parentLayerId":-1 },
+															{"id":2, "parentLayerId":-1 }
+													]
+											}
+									]
+							}
+					]
+			}
 	}
 ]
