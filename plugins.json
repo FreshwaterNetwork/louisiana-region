@@ -25,11 +25,11 @@
         },
 		{
 			"repo": "draw-and-report",
-			"name": "draw_report_fresh"
+			"name": "draw-and-report"
 		},
 		{
 			"repo": "feature-compare",
-			"name": "feature_compare"
+			"name": "feature-compare"
 		}
 >>>>>>> refs/remotes/origin/master
     ]
