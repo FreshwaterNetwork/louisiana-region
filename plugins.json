@@ -22,7 +22,7 @@
         },
 		{
 			"repo": "draw-and-report",
-			"name": "draw-and-report"
+			"name": "draw_report"
 		},
 		{
 			"repo": "feature-compare",
