@@ -7,7 +7,7 @@
         },
         {
             "repo": "HydroFlow",
-            "name": "HydroFlow",
+            "name": "flow_app",
 			"org": "FreshwaterNetwork"
         },
         {               
@@ -17,7 +17,7 @@
         },
         {   
             "repo": "OysterFlow",
-            "name": "OysterFlow",
+            "name": "sabine_app",
 			"org": "FreshwaterNetwork"
 <<<<<<< HEAD
         }
@@ -29,7 +29,7 @@
 		},
 		{
 			"repo": "feature-compare",
-			"name": "feature-compare"
+			"name": "feature_compare"
 		}
 >>>>>>> refs/remotes/origin/master
     ]
