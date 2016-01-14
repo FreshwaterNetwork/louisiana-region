@@ -13,20 +13,20 @@
         {               
             "repo": "water_quality",
             "name": "water_quality",
-			"org": "FreshwaterNetwork"
+	    "org": "FreshwaterNetwork"
         },
         {   
             "repo": "OysterFlow",
             "name": "sabine_app",
-			"org": "FreshwaterNetwork"
+	    "org": "FreshwaterNetwork"
         },
-		{
-			"repo": "draw-and-report",
-			"name": "draw_report"
-		},
-		{
-			"repo": "feature-compare",
-			"name": "feature_compare"
-		}
+	{
+	    "repo": "draw-and-report",
+	    "name": "draw_report"
+	},
+	{
+	    "repo": "feature-compare",
+	    "name": "feature_compare"
+	}
     ]
 }
