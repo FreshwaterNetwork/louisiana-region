@@ -3,26 +3,22 @@
         {
             "repo": "hydro_alteration",
             "name": "hydro_alteration",
-	    "org": "FreshwaterNetwork"
+			"org": "FreshwaterNetwork"
         },
         {
             "repo": "HydroFlow",
             "name": "flow_app",
-	    "org": "FreshwaterNetwork"
+			"org": "FreshwaterNetwork"
         },
         {               
             "repo": "water_quality",
             "name": "water_quality",
-	    "org": "FreshwaterNetwork"
+			"org": "FreshwaterNetwork"
         },
         {   
             "repo": "OysterFlow",
             "name": "sabine_app",
-<<<<<<< HEAD
 			"org": "FreshwaterNetwork"
-<<<<<<< HEAD
-        }
-=======
         },
 		{
 			"repo": "draw-and-report",
@@ -32,18 +28,5 @@
 			"repo": "feature-compare",
 			"name": "feature_compare"
 		}
->>>>>>> refs/remotes/origin/master
-=======
-	    "org": "FreshwaterNetwork"
-        },
-	{
-	    "repo": "draw-and-report",
-	    "name": "draw_report"
-	},
-	{
-	    "repo": "feature-compare",
-	    "name": "feature_compare"
-	}
->>>>>>> refs/remotes/origin/master
     ]
 }
