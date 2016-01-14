@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://54.241.26.242:6080/arcgis/rest/services/LA_Freshwater",
+            "url": "http://54.241.26.242/arcgis/rest/services/LA_Freshwater",
             "folderTitle": "LA_Map_Layers",
             "folders": [
                 {
