@@ -2,7 +2,7 @@
 	{
 		"toolbarName": "Water Flow App",
 		"dialogWidth": 625,
-		"dialogHeight": 625,
+		"dialogHeight": 700,
 		"WaterFALLService":"http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
 		"infoGraphic":"plugins/flow_app/slr_flooding_c.jpg",
 		"hydrographPath":"http://ec2-54-81-38-200.compute-1.amazonaws.com/static/tnc/Baseline_hydrographs_OCT2015/Baseline_hydrograph_",
@@ -28,10 +28,11 @@
 			},
 			"HUC12":{
 				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/LASingleMetrics/MapServer/0",
-				"displayName": "SingleMetrics.huc12_name",
+				"displayName": "LA_HUC12.hu_12_name",
 				"basinID":"LA_HUC12.huc_12",
 				"LayerID": "FlowAppHuc12Layer",
-				"metricPrefix":"SingleMetrics.",
+        "metricPrefix": "SingleMetrics.",
+        "metricCheck":"SingleMetrics.HUC12",
 				"legendName":"12 Digit Basins (HUC 12)",
 				"symbol": {
                     "type": "esriSFS",
@@ -47,7 +48,7 @@
 			},
 			"NavigationResults":{
 				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/LASingleMetrics/MapServer/0",
-				"displayName": "SingleMetrics.huc12_name",
+				"displayName": "LA_HUC12.hu_12_name",
 				"basinID":"LA_HUC12.huc_12",						
 				"LayerID":"FlowAppNavResults",
 				"metricPrefix":"SingleMetrics.",
