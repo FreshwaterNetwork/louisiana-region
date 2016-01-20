@@ -2,15 +2,15 @@
     {
         "agsSource": {
             "url": "http://54.241.26.242/arcgis/rest/services/LA_Freshwater",
-            "folderTitle": "LA_Map_Layers",
+            "folderTitle": "Louisiana",
             "folders": [
                 {
 									"name": "",
                     "services": [
-											{ "name": "Layers", "type":"dynamic", "displayName":"Watersheds", "showLayers": [
-															{"id":0, "parentLayerId":-1 },
+											{ "name": "Louisiana", "type":"dynamic", "displayName":"Watersheds", "showLayers": [
 															{"id":1, "parentLayerId":-1 },
-															{"id":2, "parentLayerId":-1 }
+															{"id":2, "parentLayerId":-1 },
+															{"id":3, "parentLayerId":-1 }
 													]
 											}
 									]
