@@ -25,8 +25,8 @@
 			"name": "feature_compare"
 		},
 		{
-			"repo": "hydrologic_alteration",
-			"name": "hydrologic_alteration",
+			"repo": "hydro_alteration",
+			"name": "hydro_alteration",
 			"org": "FreshwaterNetwork"
 		}
     ]
