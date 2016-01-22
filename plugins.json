@@ -1,0 +1,33 @@
+{
+    "plugins": [
+
+        {
+            "repo": "HydroFlow",
+            "name": "flow_app",
+			"org": "FreshwaterNetwork"
+        },
+        {               
+            "repo": "water_quality",
+            "name": "water_quality",
+			"org": "FreshwaterNetwork"
+        },
+        {   
+            "repo": "OysterFlow",
+            "name": "sabine_app",
+			"org": "FreshwaterNetwork"
+        },
+		{
+			"repo": "draw-and-report",
+			"name": "draw_report"
+		},
+		{
+			"repo": "feature-compare",
+			"name": "feature_compare"
+		},
+		{
+			"repo": "hydrologic_alteration",
+			"name": "hydrologic_alteration",
+			"org": "FreshwaterNetwork"
+		}
+    ]
+}
