@@ -27,15 +27,28 @@
     ],
     "pluginOrder": [
         "layer_selector",
-        "measure"
+		"flow_app",
+		"water_quality",
+		"sabine_app",
+		"feature_compare",
+		"draw_report",
+		"hydro_alteration",
+		"zoom_to",
+		"measure",
+		"legend_display",
+		"full_extent",
+		"subregion_toggle"
+       
     ],
     
-    "identifyBlacklist":["OBJECTID", "Shape"],
+    "identifyBlacklist":["OBJECTID", "OBJECTID_1"],
+	"identifyEnabled": true,
     
     "colors": {
         "primary": "#457545",
         "secondary": "#81b94d"
     },
+	
     "print": {
         "printServerUrl": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/ExportWebMap/GPServer/Export%20Web%20Map",
         "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
