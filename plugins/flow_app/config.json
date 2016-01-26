@@ -1,6 +1,6 @@
 ﻿[
 	{
-		"toolbarName": "Water Flow App",
+		"toolbarName": "HydroFlows",
 		"dialogWidth": 625,
 		"dialogHeight": 700,
 		"WaterFALLService":"http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
