@@ -41,7 +41,7 @@
        
     ],
     
-    "identifyBlacklist":["OBJECTID", "OBJECTID_1"],
+    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
 	"identifyEnabled": true,
     
     "colors": {
