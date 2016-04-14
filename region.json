@@ -27,9 +27,9 @@
     ],
     "pluginOrder": [
         "layer_selector",
-		"flow_app",
 		"water_quality",
 		"sabine_app",
+		"flow_app",
 		"feature_compare",
 		"draw_report",
 		"hydro_alteration",
