@@ -4,7 +4,7 @@
     "dialogWidth": 500,
     "dialogHeight": 650,
     "WaterFALLService": "http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
-    "infoGraphic": "plugins/sabine_app/slr_flooding_c.jpg",
+    "infoGraphic": "plugins/sabine_app/OysterFlows667x10.jpg",
     "mapCenter": {
       "x": -94.352,
       "y": 30.865,
