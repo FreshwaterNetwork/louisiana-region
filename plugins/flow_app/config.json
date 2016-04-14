@@ -4,7 +4,7 @@
 		"dialogWidth": 625,
 		"dialogHeight": 700,
 		"WaterFALLService":"http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
-		"infoGraphic":"plugins/flow_app/slr_flooding_c.jpg",
+		"infoGraphic":"plugins/flow_app/HydroFlows6_67x10.jpg",
 		"hydrographPath":"http://ec2-54-81-38-200.compute-1.amazonaws.com/static/tnc/Baseline_hydrographs_OCT2015/Baseline_hydrograph_",
 		"ecochangePath":"http://ec2-54-81-38-200.compute-1.amazonaws.com/static/tnc/Final_Figs/",
 		"layers":{
