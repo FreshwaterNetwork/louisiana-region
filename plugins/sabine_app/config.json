@@ -30,14 +30,14 @@
       "spatialReference": { "wkid": 4326 }
     },
     "layers": {
-      "Reservoir": "https://mapservices80.rti.org/arcgis/rest/services/TNC/SabineService/MapServer/3",
-      "SabineRiver": "https://mapservices80.rti.org/arcgis/rest/services/TNC/SabineService/MapServer/4",
-      "Lake": "https://mapservices80.rti.org/arcgis/rest/services/TNC/SabineService/MapServer/5",
-      "NechesRiver": "https://mapservices80.rti.org/arcgis/rest/services/TNC/SabineService/MapServer/1",
-      "ToledoDam": "https://mapservices80.rti.org/arcgis/rest/services/TNC/SabineService/MapServer/0",
-      "SabineOysterReef": "https://mapservices80.rti.org/arcgis/rest/services/TNC/SabineService/MapServer/2",
-      "CalcasieuRiver": "https://mapservices80.rti.org/arcgis/rest/services/TNC/CalcasieuService/MapServer/0",
-      "CalcasieuLake": "https://mapservices80.rti.org/arcgis/rest/services/TNC/CalcasieuService/MapServer/1"
+      "Reservoir": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/12",
+      "SabineRiver": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/10",
+      "Lake": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/13",
+      "NechesRiver": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/9",
+      "ToledoDam": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/8",
+      "SabineOysterReef": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/11",
+      "CalcasieuRiver": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/14",
+      "CalcasieuLake": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/15"
     },
     "stations": [
       {
