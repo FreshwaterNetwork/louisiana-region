@@ -1,32 +1,86 @@
 [
     {
         "agsSource": {
-            "url": "http://50.18.215.52/arcgis/rest/services/",
-            "folderTitle": "Louisiana Freshwater",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana",
+            "folderTitle": "Hydrologic Alteration",
             "folders": [
-                {
-                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
-                    "name": "",
+				{
+									"name": "",
                     "services": [
-                        { "name": "Hydrologic_Alteration_Features", "type": "dynamic",
-                            "showLayers": [
-                                {"id":0, "parentLayerId":-1, "downloadUrl": "downloads/canals.zip"},
-                                {"id":1, "parentLayerId":-1},
-                                {"id":2, "parentLayerId":-1}]},
-                        { "name": "HUC_8_Hydrologic_Alteration_Assessments", "type": "dynamic"},
-                        { "name": "HUC_12_Hydrologic_Alteration_Assessments", "type": "dynamic"},
-						{ "name": "LDEQ_Subsegment_Hydrologic_Alteration_Assessments", "type": "dynamic",
-						"isNew": { "startDate": "10/7/2014", "endDate": "2/28/2014" }
-						},
-						{ "name": "LA_Parishes_Hydrologic_Alteration_Assessments", "type": "dynamic",
-						"isNew": { "startDate": "10/7/2014", "endDate": "2/28/2014" }
-						},
-						{ "name": "U_S__Congressional_Districts_Hydrologic_Alteration_Assessments", "type": "dynamic",
-						"isNew": { "startDate": "12/15/2014", "endDate": "2/28/2014" }
-						}
-                     ]
-                }
-            ]
-        }
-    }
+											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "Hydrologic Alteration Features", "showLayers": [
+															{"id":1, "parentLayerId":-1 },
+															{"id":2, "parentLayerId":-1 },
+															{"id":3, "parentLayerId":-1 }
+													]
+											}
+										]
+									},
+									{
+									"name": "",
+					"services":[										
+											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "HUC8 Alteration Assessments", "showLayers": [
+															{"id":5, "parentLayerId":-1 },
+															{"id":6, "parentLayerId":-1 },
+															{"id":7, "parentLayerId":-1 },
+															{"id":8, "parentLayerId":-1 },
+															{"id":9, "parentLayerId":-1 }
+													]
+											}
+										]
+									},
+									{
+									"name": "",
+					"services":[										
+											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "HUC12 Alteration Assessments", "showLayers": [
+															{"id":11, "parentLayerId":-1 },
+															{"id":12, "parentLayerId":-1 },
+															{"id":13, "parentLayerId":-1 },
+															{"id":14, "parentLayerId":-1 },
+															{"id":15, "parentLayerId":-1 }
+													]
+											}
+										]
+									},
+									{
+									"name": "",
+					"services":[										
+											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "LDEQ Subsegment Assessments", "showLayers": [
+															{"id":17, "parentLayerId":-1 },
+															{"id":18, "parentLayerId":-1 },
+															{"id":19, "parentLayerId":-1 },
+															{"id":20, "parentLayerId":-1 }
+													]
+											}
+										]
+									},
+									{
+									"name": "",
+					"services":[										
+											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "LA Parishes Alteration Assessments", "showLayers": [
+															{"id":22, "parentLayerId":-1 },
+															{"id":23, "parentLayerId":-1 },
+															{"id":24, "parentLayerId":-1 },
+															{"id":25, "parentLayerId":-1 },
+															{"id":26, "parentLayerId":-1 }
+													]
+											}
+										]
+									},
+									{
+									"name": "",
+					"services":[										
+											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "Congressional District Alteration Assessments", "showLayers": [
+															{"id":28, "parentLayerId":-1 },
+															{"id":29, "parentLayerId":-1 },
+															{"id":30, "parentLayerId":-1 },
+															{"id":31, "parentLayerId":-1 },
+															{"id":32, "parentLayerId":-1 }
+													]
+											}
+										]
+									}
+									
+						]
+		}
+	}
 ]
