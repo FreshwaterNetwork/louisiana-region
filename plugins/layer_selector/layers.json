@@ -2,7 +2,7 @@
     {
         "agsSource": {
             "url": "http://54.241.26.242/arcgis/rest/services/LA_Freshwater",
-            "folderTitle": "LA Map Layers",
+            "folderTitle": "Louisiana Freshwater",
             "folders": [
 				{
 									"name": "",
