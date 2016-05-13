@@ -6,7 +6,7 @@
     "layers": [
         {
             "name": "HUC 8",
-            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Watersheds/MapServer/0",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/3",
             "mapDisplayAttribute": "SUBBASIN",
             "attrs": [
                 {"name": "SUBBASIN", "format": "text", "maxLength": 32},
@@ -22,7 +22,7 @@
         },
         {
             "name": "HUC 12",
-            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Watersheds/MapServer/1",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/4",
             "mapDisplayAttribute": "SUBWATERSHED",
             "attrs": [
                 {"name": "SUBWATERSHED", "format": "text", "maxLength": 32},
@@ -38,7 +38,7 @@
         },
 		{
             "name": "LDEQ Sub-segments",
-            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Watersheds/MapServer/2",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/5",
             "mapDisplayAttribute": "NAME",
             "attrs": [
                 {"name": "NAME", "format": "text", "maxLength": 71},
@@ -54,7 +54,7 @@
         },
 		{
             "name": "Louisiana Parishes",
-            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Political_Boundaries/MapServer/0",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/7",
             "mapDisplayAttribute": "PARISH",
             "attrs": [
                 {"name": "PARISH", "format": "text", "maxLength": 20},
@@ -70,7 +70,7 @@
         },
 		{
             "name": "U.S. Congressional Districts",
-            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Political_Boundaries/MapServer/1",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/8",
             "mapDisplayAttribute": "District",
             "attrs": [
                 {"name": "District", "format": "text", "maxLength": "10"},
