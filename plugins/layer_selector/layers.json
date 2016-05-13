@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://54.241.26.242/arcgis/rest/services/LA_Freshwater",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana",
             "folderTitle": "Louisiana Freshwater",
             "folders": [
 				{
@@ -70,7 +70,7 @@
 									"name": "",
 					"services":[
 											{ "name": "LA_Map_Layers", "type": "dynamic", "displayName": "Land Cover", "showLayers": [
-															{"id":35, "parentLayerId":-1 }
+															{"id":34, "parentLayerId":-1 }
 															
 													]
 											}
@@ -80,7 +80,7 @@
 									"name": "",
 					"services":[
 											{ "name": "LA_Map_Layers", "type": "dynamic", "displayName": "Wetlands", "showLayers": [
-															{"id":37, "parentLayerId":-1 }
+															{"id":35, "parentLayerId":-1 }
 													]
 											}
 									]
