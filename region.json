@@ -1,10 +1,10 @@
 {
     "googleAnalyticsPropertyId": "28810260-5",
     "googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
-    "titleMain": { "text": "TNC Louisiana", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
-    "titleDetail": { "text": "Freshwater Assessment", "url": "http://freshwaternetwork.org" },
+    "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
+	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/waternews/louisiana.html" },
     "headerLinks": [
-        { "text": "The Nature Conservancy", "url": "http://nature.org" },
+        { "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
         { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
         { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
