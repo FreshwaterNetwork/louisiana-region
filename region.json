@@ -50,7 +50,6 @@
     },
 	
     "print": {
-        "printServerUrl": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/ExportWebMap/GPServer/Export%20Web%20Map",
-        "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
     }
 }
