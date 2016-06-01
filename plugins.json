@@ -2,6 +2,10 @@
     "plugins": [
 
         {
+			"repo": "map-tree",
+			"name": "layer_selector"
+		},
+		{
             "repo": "HydroFlow",
             "name": "flow_app",
 			"org": "FreshwaterNetwork"
