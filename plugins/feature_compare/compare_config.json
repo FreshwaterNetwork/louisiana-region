@@ -46,7 +46,7 @@
                 {"name": "DamStorIdx", "format": "number", "digits": 4, "unit": " ft", "nonZeroCutoff": 0.0001},
                 {"name": "canal_idx", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.001},
                 {"name": "chan_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001},                    
-                {"name": "ResX100", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.001},
+                {"name": "ResX10", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.001},
                 {"name": "VEG_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001},
                 {"name": "Prot_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001}
                 
