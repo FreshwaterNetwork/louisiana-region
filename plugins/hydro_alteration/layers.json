@@ -19,11 +19,11 @@
 									"name": "",
 					"services":[										
 											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "HUC8 Alteration Assessments", "showLayers": [
-															{"id":5, "parentLayerId":-1 },
 															{"id":6, "parentLayerId":-1 },
 															{"id":7, "parentLayerId":-1 },
 															{"id":8, "parentLayerId":-1 },
-															{"id":9, "parentLayerId":-1 }
+															{"id":9, "parentLayerId":-1 },
+															{"id":10, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -32,11 +32,11 @@
 									"name": "",
 					"services":[										
 											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "HUC12 Alteration Assessments", "showLayers": [
-															{"id":11, "parentLayerId":-1 },
 															{"id":12, "parentLayerId":-1 },
 															{"id":13, "parentLayerId":-1 },
 															{"id":14, "parentLayerId":-1 },
-															{"id":15, "parentLayerId":-1 }
+															{"id":15, "parentLayerId":-1 },
+															{"id":16, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -45,10 +45,10 @@
 									"name": "",
 					"services":[										
 											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "LDEQ Subsegment Assessments", "showLayers": [
-															{"id":17, "parentLayerId":-1 },
 															{"id":18, "parentLayerId":-1 },
 															{"id":19, "parentLayerId":-1 },
-															{"id":20, "parentLayerId":-1 }
+															{"id":20, "parentLayerId":-1 },
+															{"id":21, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -57,11 +57,11 @@
 									"name": "",
 					"services":[										
 											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "LA Parishes Alteration Assessments", "showLayers": [
-															{"id":22, "parentLayerId":-1 },
 															{"id":23, "parentLayerId":-1 },
 															{"id":24, "parentLayerId":-1 },
 															{"id":25, "parentLayerId":-1 },
-															{"id":26, "parentLayerId":-1 }
+															{"id":26, "parentLayerId":-1 },
+															{"id":27, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -70,11 +70,11 @@
 									"name": "",
 					"services":[										
 											{ "name": "Hydrologic_Alteration", "type": "dynamic", "displayName": "Congressional District Alteration Assessments", "showLayers": [
-															{"id":28, "parentLayerId":-1 },
 															{"id":29, "parentLayerId":-1 },
 															{"id":30, "parentLayerId":-1 },
 															{"id":31, "parentLayerId":-1 },
-															{"id":32, "parentLayerId":-1 }
+															{"id":32, "parentLayerId":-1 },
+															{"id":33, "parentLayerId":-1 }
 													]
 											}
 										]

@@ -1,5 +1,5 @@
 ﻿{
-    "gpUrl": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/DrawAndReport/GPServer/getDrawAndReportDataPath",
+    "gpUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/getDrawAndReportDataPath/GPServer/getDrawAndReportDataPath",
     "reports":
         [
             { 
@@ -9,7 +9,7 @@
                 "layers": [
                     {   
                         "display": "Streams",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/River_and_Stream_Features.MapServer/extracted/v101/lfa.gdb/majr_streams_rivers_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa.gdb/majr_streams_rivers_web_mercator",
                         "field": "GNIS_Name",
                         "units": "km"
                     }
@@ -22,13 +22,13 @@
                 "layers": [
                     {   
                         "display": "HUC 8",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Watersheds.MapServer/extracted/v101/lfa.gdb/HUC8_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa.gdb/HUC8_web_mercator",
                         "field": "SUBBASIN",
                         "units": "Square km"
                     },
 					{   
                         "display": "HUC 12",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Watersheds.MapServer/extracted/v101/lfa.gdb/HUC12_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa.gdb/HUC12_web_mercator",
                         "field": "SUBWATERSHED",
                         "units": "Square km"
                     }
@@ -41,67 +41,67 @@
                 "layers": [
                     {   
                         "display": "Wetlands Reserve Program",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_WRP",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_WRP",
                         "field": "",
                         "units": "Square km"
                     },
 					{   
                         "display": "Wildlife Management Area total area",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_WMA",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_WMA",
                         "field": "",
                         "units": "Square km"
                     },
 					{   
                         "display": "Wildlife Management Areas",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_WMA",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_WMA",
                         "field": "NAME",
                         "units": "Square km"
                     },
 					{   
                         "display": "National Wildlife Refuge total area",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_NWR",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_NWR",
                         "field": "",
                         "units": "Square km"
                     },
 					{   
                         "display": "National Wildlife Refuges",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_NWR",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_NWR",
                         "field": "NAME",
                         "units": "Square km"
                     },
 					{   
                         "display": "State Parks total area",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_State_Park",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_State_Park",
                         "field": "",
                         "units": "Square km"
                     },
 					{   
                         "display": "State Parks",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_State_Park",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_State_Park",
                         "field": "NAME",
                         "units": "Square km"
                     },
 					{   
                         "display": "National Parks total area",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Parks",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Parks",
                         "field": "",
                         "units": "Square km"
                     },
 					{   
                         "display": "National Parks",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Parks",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Parks",
                         "field": "NAME",
                         "units": "Square km"
                     },
 					{   
                         "display": "National Forest total area",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Forest",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Forest",
                         "field": "",
                         "units": "Square km"
                     },
 					{   
                         "display": "National Forest",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Forest",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Managed_Areas2.MapServer/extracted/v101/lfa.gdb/All_Nat_Forest",
                         "field": "NAME",
                         "units": "Square km"
                     }
@@ -114,25 +114,25 @@
                 "layers": [					
 					{   
                         "display": "Canals",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Hydrologic_Alteration_Features.MapServer/extracted/v101/lfa.gdb/Canals_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Hydrologic_Alteration.MapServer/extracted/v101/lfa.gdb/Canals_web_mercator",
                         "field": "",
                         "units": "km"
                     },
 					{   
                         "display": "Channelized Streams/Rivers",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Hydrologic_Alteration_Features.MapServer/extracted/v101/lfa.gdb/Chan_merge_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Hydrologic_Alteration.MapServer/extracted/v101/lfa.gdb/Chan_merge_web_mercator",
                         "field": "",
                         "units": "km"
                     },
 					{   
                         "display": "Industrial/Agricultural Reservoirs",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Hydrologic_Alteration_Features.MapServer/extracted/v101/lfa.gdb/Non_dam_reservoirs_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Hydrologic_Alteration.MapServer/extracted/v101/lfa.gdb/Non_dam_reservoirs_web_mercator",
                         "field": "",
                         "units": "Square km"
                     },
 					{   
                         "display": "Dams",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Dams_test.MapServer/extracted/v101/la_ms_combined.gdb/LA_MS_combined_dams_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Hydrologic_Alteration.MapServer/extracted/v101/LA_MS_combined.gdb/LA_MS_combined_dams_web_mercator",
                         "field": "",
                         "units": "dams"
                     }
