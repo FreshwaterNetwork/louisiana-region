@@ -9,7 +9,7 @@
                 "layers": [
                     {   
                         "display": "Streams",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa.gdb/majr_streams_rivers_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa1.gdb/majr_streams_rivers_web_mercator",
                         "field": "GNIS_Name",
                         "units": "km"
                     }
@@ -22,13 +22,13 @@
                 "layers": [
                     {   
                         "display": "HUC 8",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa.gdb/HUC8_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa1.gdb/HUC8_web_mercator",
                         "field": "SUBBASIN",
                         "units": "Square km"
                     },
 					{   
                         "display": "HUC 12",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa.gdb/HUC12_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/LA_Map_Layers.MapServer/extracted/v101/lfa1.gdb/HUC12_web_mercator",
                         "field": "SUBWATERSHED",
                         "units": "Square km"
                     }
