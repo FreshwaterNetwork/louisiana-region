@@ -4,10 +4,16 @@
     "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
 	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/waternews/louisiana.html" },
     "headerLinks": [
-        { "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
-        { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
+	{ "text": "GO TO", "url": "#", "items": [
+		{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/mississippi/" },
+		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
+		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/ }
+	  ]
+	},
+	{ "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
+    { "text": "Partners", "url": "partners.html", "popup": true },
+    { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
+    { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
     ],
     "initialExtent": [
         -95.55,
