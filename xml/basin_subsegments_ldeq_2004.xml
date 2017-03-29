@@ -1,0 +1,668 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Louisiana Department of Environmental Quality</origin>
+<pubdate>200406</pubdate>
+<title>Basin Subsegments from LDEQ source data, Geographic NAD83, LOSCO (2004) [basin_subsegments_LDEQ_2004]</title>
+<edition>June 2004</edition>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Baton Rouge, LA</pubplace>
+<publish>Louisiana Department of Environmental Quality</publish>
+</pubinfo>
+<onlink>http://lagic.lsu.edu/data/losco/basin_subsegments_LDEQ_2004.zip</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This is a polygon data set of watershed basin subsegments for Louisiana. The dataset was developed for the LDEQ Office of Water Resources&apos; watershed assessment and management tasks. The basin-subseg form the management units for water resources used throughout the agency.</abstract>
+<purpose>
+This basin-subsegment data is used for water quality planning and regulatory tasks, and form the water quality management units used throughout LDEQ.
+
+For use in the Louisiana Department of Environmental Quality Make-A-Map Application.
+</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>194401</begdate>
+<enddate>200406</enddate>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Irregular</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-94.043205</westbc>
+<eastbc>-88.758343</eastbc>
+<northbc>33.019638</northbc>
+<southbc>28.854233</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>watershed</themekey>
+<themekey>basin</themekey>
+<themekey>basin-subsegment</themekey>
+<themekey>water resources</themekey>
+<themekey>water quality</themekey>
+<themekey>water</themekey>
+<themekey>pollution</themekey>
+<themekey>drainage</themekey>
+<themekey>Hydrography</themekey>
+</theme>
+<theme>
+<themekt>ArcIMS Metadata Server Theme Codes</themekt>
+<themekey>environment</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Louisiana</placekey>
+</place>
+</keywords>
+<accconst>The data provided is not downloadable from the LDEQ Make-A-Map Application other than as part of a map image.</accconst>
+<useconst>The Louisiana Department of Environmental Quality (LDEQ) has made every reasonable effort to ensure quality and accuracy of the data used in Make-A-Map Application. Nevertheless, the user should be aware that the information on which it is based may have come from any of a variety of sources, which are of varying degrees of map accuracy. Therefore, LDEQ cannot guarantee the accuracy of this map or data set, and does not accept any responsibility for the consequences of its use.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Joe Holmes</cntper>
+<cntorg>Louisiana  Department of Environmental Quality</cntorg>
+</cntperp>
+<cntpos>GIS Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>602 N. 5th Street Room 42106</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70802-5312</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>225.219.3348</cntvoice>
+<cntfax>225.219.3374</cntfax>
+<cntemail>joe.holmes@la.gov</cntemail>
+<hours>0800-1630 CST</hours>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>&lt;URL: basin_subsegments_LDEQ_2004.gif&gt;</browsen>
+<browset>GIF</browset>
+</browse>
+<secinfo>
+<secclass>Unclassified</secclass>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Undetermined</attraccr>
+</attracc>
+<logic>
+All subsegment polygons have unique identifier codes.  No
+dangles or label errors are present.
+</logic>
+<complete>
+No omissions. Sub-segments derived from document
+descriptions.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>undetermined</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>undetermined</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>US Geological Survey</origin>
+<pubdate>19650101</pubdate>
+<title>USGS 15 Minute Series</title>
+<geoform>map</geoform>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>US Geological Survey</publish>
+</pubinfo>
+<onlink>http://www.usgs.gov</onlink>
+</citeinfo>
+</srccite>
+<srcscale>62,500</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19440101</begdate>
+<enddate>19980826</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>15 Minute</srccitea>
+<srccontr>
+Topography and drainage information were derived from
+this source.
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Louisiana Department of Environmental Quality</origin>
+<pubdate>19960000</pubdate>
+<title>Water Quality Management Plan, Vol 5 Part B, Water Quality Inventory</title>
+<geoform>map</geoform>
+<pubinfo>
+<pubplace>Baton Rouge, LA</pubplace>
+<publish>Louisiana Department of Environmental Quality, Office of Water Resources, Water Quality Management Division</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19960000</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Publication Date</srccurr>
+</srctime>
+<srccitea>WQMP5B</srccitea>
+<srccontr>
+Reference to resolve ambiguous subsegment identification
+numbers
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>US Geological Survey</origin>
+<pubdate>Unknown</pubdate>
+<title>Digital Raster Graphics</title>
+<geoform>raster digital data</geoform>
+<serinfo>
+<sername>100,000</sername>
+<issue>Louisiana</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>US Geological Survey</publish>
+</pubinfo>
+<lworkcit>
+<citeinfo>
+<pubinfo></pubinfo>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</srccite>
+<srcscale>100,000</srcscale>
+<typesrc>online</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>unknown</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>USGS 100K DRG</srccitea>
+<srccontr>Digital Raster Graphic as the base map.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>LDEQ Office of Water Resources</origin>
+<pubdate>2002-2004</pubdate>
+<title>Subsegment Descriptions and Delineations</title>
+<geoform>diagram</geoform>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>200206</begdate>
+<enddate>200406</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>LDEQ WR</srccitea>
+<srccontr>Subsegment Descriptions and Delineations</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Drainage boundaries were hand delineated on USGS 15 Minute Topographic Maps. These drainage boundaries were then digitized using the  Intergraph system by the Computer Aided Design and Geographical  Information Systems (CADGIS) Laboratory in the College of Design at LSU. The Microstation design files were converted to ArcInfo using a Feature-based Import Utility developed by LSU&apos;s  Remote Sensing and Image Processing( RSIP) Laboratory. Certain drainage boundaries were updated using USGS 24000 Topographic maps.</procdesc>
+<srcused>15Minute</srcused>
+<procdate>19900101</procdate>
+<srcprod>Drainage</srcprod>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Louisiana State University - CADGIS Research Lab</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Louisiana State University
+College of Design Bldg
+Room 216
+</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70803</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(225) 578-6134</cntvoice>
+<hours>8:00-16:30 PM CST</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Three subsegment identification and labeling errors were fixed based on consultation with personnel from Office of Water Resources. The IGDS-TEXT field name was changed to SUBSEGMENT.  Additional fields were created PLUS4 for subdivision of subsegments, DESC for the written description of the subsegment ,  BASIN which contain the name of the river basin containing the subsegment, and AREA-SQM (polygon area in square meters) was calculated and the cover was projected to geographic coordinates, NAD27 to produce subseg99g.</procdesc>
+<procdate>19990500</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Louisiana Department of Environmental Quality - GIS</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>7290 Bluebonnet Rd</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70810</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(225) 765-0090</cntvoice>
+<hours>8:00-17:00 CST</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Subseg99g was converted to a shapefile using ArcView 3.2  and projected to UTM NAD83 using ArcToolbox  8.1 with the NADCON geotransformation to produce subseg99utm83.</procdesc>
+<procdate>20010501</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Andy Venuto</cntper>
+<cntorg>Louisiana Department of Environmental Quality - GIS</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>7290 Bluebonnet</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70810</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(225) 765-0090</cntvoice>
+<cntfax>(225)765-2771</cntfax>
+<cntemail>andy_v@ldeq.org</cntemail>
+<hours>8:00-15:00 CST</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>
+Improved outline of the sub-segments below using USGS 1 to 100,000 Digital Raster Graphics as a base map and descriptions provided by the LDEQ Office of Water Resources.
+
+All of the subsegments have a LA prefix in the dataset but the prefix is not included in the listing below for simplification.
+010101, 010201, 010801, 020103, 020401, 020802,
+020903, 020905, 021001, 021101, 021102, 030103-0475,
+030302, 030303, 030506, 030602, 030603, 030701,
+030806, 030807, 030901, 031001, 040302, 040303,
+040304, 040402, 040504, 040701, 040801, 040804,
+040902, 040904, 040905, 040906, 040907, 040908,
+041001, 041202, 041301, 041601, 041704, 041802,
+041804, 041806, 041807, 041901, 042001, 042003,
+042101, 042103, 042105, 042202, 042203, 050101,
+050402, 050602, 050603, 060301, 060902, 060911,
+061103, 070101, 070102, 070103, 070502, 080101,
+080203, 080401, 080601, 080603, 080607, 080609,
+080610, 080701, 080904, 081003, 081501, 081502,
+081602, 081604, 090203, 090206, 090501, 090502,
+100101, 100102, 100303, 100501, 100701, 100201,
+100501, 120505, 120507, 120103, 120106, 120202,
+120301, 120302, 120303, 120304, 120402, 120403,
+120501, 120505, 120507, 120601, 120602, 120603,
+120703, 120705, 120709.
+</procdesc>
+<srcused>USGS 100K DRG</srcused>
+<srcused>LDEQ WR</srcused>
+<procdate>20020628</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Dina Sa</cntper>
+<cntorg>Louisiana State University</cntorg>
+</cntperp>
+<cntpos>Research Associate 4</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Louisiana State University</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70803</postal>
+<country>USA</country>
+</cntaddr>
+<cntemail>dsa@lsu.edu</cntemail>
+<hours>0800-1630 CST</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>
+Adjusted outlines and added subsegments using USGS 1 to 100,000 Digital Raster Graphics as a base map and descriptions provided by the LDEQ Office of Water Resources.
+
+All of the subsegments have a LA prefix in the dataset but the prefix is not included in the listing below for simplification.
+
+040802
+040803
+040805 (new subsegment)
+040806 (new subsegment)
+100709
+100710
+110201
+110601
+110301
+110302
+110303
+110602
+</procdesc>
+<srcused>USGS 100K DRG</srcused>
+<srcused>LDEQ WR</srcused>
+<procdate>200406</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Dina Sa</cntper>
+<cntorg>Louisiana State University</cntorg>
+</cntperp>
+<cntpos>Research Associate 4</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Louisiana State University</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70803</postal>
+<country>USA</country>
+</cntaddr>
+<cntemail>dsa@lsu.edu</cntemail>
+<hours>0800-1630 CST</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Area values (in acres)  were added for each polygon.  Area calculations based on UTM zone 15, NAD 83.</procdesc>
+<srcused>subsegments_2004</srcused>
+<procdate>20050407</procdate>
+<srcprod>subsegments_2004</srcprod>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Louisiana Geographic Information Center (LAGIC)</cntorg>
+<cntper>Joshua Kent</cntper>
+</cntorgp>
+<cntpos>Data Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>E313 Howe-Russell</address>
+<address>School of the Coast &amp; Environment - Special Programs</address>
+<address>Louisiana State University</address>
+<city>Baton Rouge</city>
+<state>Louisiana</state>
+<postal>70803</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(225) 578-3476</cntvoice>
+<cntemail>jkent4@lsu.edu</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>0</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.000000</latres>
+<longres>0.000000</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>basin_subsegments_LDEQ_2004</enttypl>
+<enttypd>Watershed basin subsegments</enttypd>
+<enttypds>LDEQ</enttypds>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Perimeter of polygon</attrdef>
+<attrdefs>Software computed</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated by software.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBSEG02</attrlabl>
+<attrdef>Internal feature number</attrdef>
+<attrdefs>User Defined</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated by software.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBSEG02ID</attrlabl>
+<attrdef>Feature identification number</attrdef>
+<attrdomv>
+<udom>Unique Character field identifying the subsegment.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBSEGMENT</attrlabl>
+<attrdef>Subsegment Number (12 12 C)</attrdef>
+<attrdefs>LDEQ</attrdefs>
+<attrdomv>
+<udom>Unique character field describing the lilmits of the named waterbody within the subsegment.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NAME</attrlabl>
+<attrdef>Name of sub-segment</attrdef>
+<attrdefs>LDEQ</attrdefs>
+<attrdomv>
+<udom>Name of the River Basin</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BASIN</attrlabl>
+<attrdef>Basin Name (20 20 C)</attrdef>
+<attrdefs>LDEQ</attrdefs>
+</attr>
+<attr>
+<attrlabl>DESCRIPTIO</attrlabl>
+<attrdef>Written description of the named waterbody within the</attrdef>
+<attrdefs>LDEQ</attrdefs>
+<attrdomv>
+<udom>Name of sub-segment</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape_Area</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE_AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape_Leng</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Louisiana Oil Spill Coordinator&apos;s Office</cntorg>
+<cntper>David Gisclair</cntper>
+</cntorgp>
+<cntpos>Technical Assistance Program (TAP) Director</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Louisiana Oil Spill Coordinator&apos;s Office</address>
+<address>Office of the Governor</address>
+<address>P.O. Box 94095</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70804</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(225) 219-5800</cntvoice>
+<cntfax>(225) 219-5802</cntfax>
+<cntemail>dgisclair@losco.state.la.us</cntemail>
+<hours>0800-1700 CST</hours>
+</cntinfo>
+</distrib>
+<resdesc>basin_subsegments_LDEQ_2004</resdesc>
+<distliab>
+The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided &quot;as is&quot; without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Louisiana Oil Spill Coordinator&apos;s Office (LOSCO) be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The LOSCO does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form.
+These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures.
+
+Although these data have been processed successfully on computers at the LOSCO, no guarantee, expressed or implied, is made by LOSCO regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for navigational, engineering, legal and other site-specific uses.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ARCGeo, shapefile, HTML</formname>
+<formvern>9.2</formvern>
+<formspec>ESRI Geodatabase and shapefile, HTML</formspec>
+<formcont>Geometry, attributes, and metadata</formcont>
+<filedec>no compression applied</filedec>
+<transize>3.539</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://lagic.lsu.edu/data/losco/basin_subsegments_LDEQ_2004.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+<offoptn>
+<offmedia>DVD-ROM</offmedia>
+</offoptn>
+</digtopt>
+</digform>
+<ordering>To obtain more information about ordering this data on DVD-ROM, please visit http://lagic.lsu.edu/loscoweb/ for more information.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20070821</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>LA Department of Environmental Quality</cntorg>
+<cntper>Joe Holmes</cntper>
+</cntorgp>
+<cntpos>GIS Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>602 N. 5th Street Room 42106</address>
+<city>Baton Rouge</city>
+<state>LA</state>
+<postal>70802-5312</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>225.219.3348</cntvoice>
+<cntfax>225.219.3374</cntfax>
+<cntemail>joe.holmes@la.gov</cntemail>
+<hours>0800-1630 CST</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>None</metuc>
+<metsi>
+<metsc>Unclassified</metsc>
+</metsi>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

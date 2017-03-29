@@ -1,0 +1,224 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>MS Dept. of Wildlife Fisheries &amp; Parks</origin>
+        <pubdate>19970901</pubdate>
+        <title>nwr</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>National Wildlife Refuge boundaries</abstract>
+      <purpose>National Wildlife Refuge boundaries</purpose>
+      <supplinf>Source: MS Dept. of Wildlife Fisheries &amp; Parks
+Scale: 1:100,000
+Source Date: September 1997
+Description: National Wildlife Refuge boundaries
+Spatial Organization: Statewide
+File Size in MB: Under .5 MB</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19970901</begdate>
+        </rngdates>
+      </timeinfo>
+      <current>Source Date: September 1997</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-91.581824</westbc>
+        <eastbc>-88.331938</eastbc>
+        <northbc>34.578377</northbc>
+        <southbc>30.350748</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Mississippi National Wildlife Refuges</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>MS Dept. of Wildlife Fisheries &amp; Parks</cntper>
+        </cntperp>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>83</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>mstm</mapprojn>
+          <transmer>
+            <sfctrmer>0.9998335</sfctrmer>
+            <longcm>-89.75</longcm>
+            <latprjo>32.5</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>1300000.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000022205459693225297</absres>
+            <ordres>0.0000000022205459693225297</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>nwr</enttypl>
+        <enttypd>Unknown</enttypd>
+        <enttypds>Unknown</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWR_</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWR_ID</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREAACRE</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OWNER</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MANAGER</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140205</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>MS Dept. of Wildlife Fisheries &amp; Parks</cntper>
+        </cntperp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
