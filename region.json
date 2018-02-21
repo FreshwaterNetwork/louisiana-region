@@ -2,7 +2,7 @@
     "googleAnalyticsPropertyId": "28810260-22",
     "googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
     "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
-	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/waternews/louisiana.html" },
+	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/louisiana.html" },
     "headerLinks": [
 	{ "text": "GO TO", "url": "#", "items": [
 		{ "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
