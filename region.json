@@ -7,6 +7,8 @@
 	{ "text": "GO TO", "url": "#", "items": [
 		{ "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
+		{ "text": "Wisconsin Region", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+		{ "text": "Chesapeake Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
 		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
 	  ]
 	},
