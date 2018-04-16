@@ -34,13 +34,7 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
-		"sabine_app",
-		"flow_app",
-		"water-quality",
-		"feature_compare",
-		"draw_report",
-		"hydro_alteration",
+        "regional-planning",
 		"zoom_to",
 		"measure",
 		"legend_display",
@@ -48,16 +42,26 @@
 		"subregion_toggle"
        
     ],
-    
-    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
-	"identifyEnabled": true,
-    
-    "colors": {
+	"print": {
+        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+    },
+	"colors": {
         "primary": "#457545",
         "secondary": "#81b94d"
     },
+    
+    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
+	"identifyEnabled": true,
+    "launchpad": {
+            "title": "Louisiana Freshwater Assessment",
+            "description": "<p>The Louisiana Freshwater Assessment provides a states of the art web portal for science based descision support tools.</p>",
+            "plugins": [
+				{
+                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
+                    "description": "control and visualize base data for Louisiana.",
+                    "pluginName": "regional-planning"
+                }
 	
-    "print": {
-        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
-    }
+			]
+		}
 }
