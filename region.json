@@ -57,9 +57,14 @@
             "plugins": [
 			    {
                     "title": "Regional Planning",
-                    "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
+                    "description": "Base data for rivers, watersheds, managed area and more are provided for mapping and visualization purposes.",
                     "pluginName": "regional-planning"
-                }
+                },
+				{
+                    "title": "Historic Mussel Surveys",
+                    "description": "We have digitized and mapped historic mussel surveys in Louisiana.",
+                    "pluginName": "mussel-surveys"
+                },
             ]
       }
 }
