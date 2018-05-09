@@ -11,7 +11,8 @@
 	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
         { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
-		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
+		{ "text": "Wisconsin", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
          -95.55,
@@ -51,8 +52,8 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
    "identifyEnabled": true,
     "launchpad": {
-            "title": "",
-            "description": "<p>Welcome to The Mississippi River Basin Project. There's lots of cool stuff to check out here.</p>",
+            "title": "Explore Louisiana Freshwater!",
+            "description": "<p>Welcome to The Louisiana Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
             "plugins": [
 			    {
                     "title": "Regional Planning",
