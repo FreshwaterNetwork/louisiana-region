@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Historic Mussel Surveys",
+        "displayName": "Historic Mollusk Surveys",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
