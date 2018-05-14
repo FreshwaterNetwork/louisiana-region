@@ -61,8 +61,8 @@
                     "pluginName": "regional-planning"
                 },
 				{
-                    "title": "Historic Mussel Surveys",
-                    "description": "We have digitized and mapped historic mussel surveys in Louisiana.",
+                    "title": "Historic Mollusk Surveys",
+                    "description": "We have digitized and mapped historic mollusk surveys in Louisiana.",
                     "pluginName": "mussel-surveys"
                 },
             ]
