@@ -10,7 +10,7 @@
         "includeLayers": [
 			{
 				"name": "Bayou Bartholomew Mollusk Study (Vidrine 1995)",
-				"includeLayers" : 
+				"includeLayers" : [
 					{
 					    "name": "Bayou Bartholomew"
 					},
@@ -26,9 +26,10 @@
 					    "name": "All Species",
 						"downloadUrl": "docs/download/Vidrine_Bayou_Bart_mollusk_1995_HUC12.zip"
 					}
-				}
+				]
+			}
 				
-			]
+		]
 													
 	}
 ]
