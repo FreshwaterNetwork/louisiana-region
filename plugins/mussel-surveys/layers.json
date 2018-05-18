@@ -10,7 +10,10 @@
         "includeLayers": [
 			{
 				"name": "Bayou Bartholomew Mollusk Study (Vidrine 1995)",
-				"includeLayers" : [
+				"includeLayers" : 
+					{
+					    "name": "Bayou Bartholomew"
+					},
 				    {
 					    "name": "Mussels",
 						"includeAllLayers": true
