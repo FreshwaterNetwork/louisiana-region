@@ -1,13 +1,17 @@
 {
     "plugins": [
-
-        {
-		  "repo": "regional-planning",
-		  "name": "regional-planning"
-		},
-		{
-		  "repo": "regional-planning",
-		  "name": "mussel-surveys"
-		}
+	{
+	  "repo": "regional-planning",
+	  "name": "regional-planning"
+	},
+	{
+	  "repo": "regional-planning",
+	  "name": "mussel-surveys"
+	},
+	{
+	  "repo": "water-quality",
+          "name": "water-quality",
+	  "org": "FreshwaterNetwork"
+	}
     ]
 }
