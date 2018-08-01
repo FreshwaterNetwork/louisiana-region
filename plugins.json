@@ -2,12 +2,12 @@
     "plugins": [
 	{
           "repo": "HydroFlow",
-          "name": "flow_app",
+          "name": "HydroFlow",
 	  "org": "FreshwaterNetwork"
         },	
         {   
           "repo": "OysterFlow",
-          "name": "sabine_app",
+          "name": "OysterFlow",
 	  "org": "FreshwaterNetwork"
         },
 	{
