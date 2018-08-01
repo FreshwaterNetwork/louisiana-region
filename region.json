@@ -31,7 +31,6 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-		"regional-planning",
 		"zoom_to",
         "measure",
         "legend_display",
@@ -56,15 +55,10 @@
             "description": "<p>Welcome to The Louisiana Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
             "plugins": [
 			    {
-                    "title": "Regional Planning",
-                    "description": "Base data for rivers, watersheds, managed area and more are provided for mapping and visualization purposes.",
-                    "pluginName": "regional-planning"
-                },
-				{
-                    "title": "Historic Mollusk Surveys",
-                    "description": "We have digitized and mapped historic mollusk surveys in Louisiana.",
-                    "pluginName": "mussel-surveys"
-                },
+                    "title": "water-quality",
+                    "description": "water-quality description.",
+                    "pluginName": "water-quality"
+                }
             ]
       }
 }
