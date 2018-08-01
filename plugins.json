@@ -1,25 +1,19 @@
 {
     "plugins": [
 	{
-	  "repo": "regional-planning",
-	  "name": "regional-planning"
-	},
-	{
-	  "repo": "regional-planning",
-	  "name": "mussel-surveys"
-	},
+          "repo": "HydroFlow",
+          "name": "flow_app",
+	  "org": "FreshwaterNetwork"
+        },	
+        {   
+          "repo": "OysterFlow",
+          "name": "sabine_app",
+	  "org": "FreshwaterNetwork"
+        },
 	{
 	  "repo": "water-quality",
           "name": "water-quality",
 	  "org": "FreshwaterNetwork"
-	},
-	{
-	  "repo": "draw-and-report",
-	  "name": "draw_report"
-	},
-	{
-	  "repo": "feature-compare",
-	  "name": "feature_compare"
 	}
     ]
 }
