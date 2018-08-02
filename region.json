@@ -31,6 +31,9 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
+        "HydroFlow",
+        "OysterFlow",
+        "water-quality",
 		"zoom_to",
         "measure",
         "legend_display",
@@ -55,6 +58,16 @@
             "description": "<p>Welcome to The Louisiana Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
             "plugins": [
 			    {
+                    "title": "Hydro Flow",
+                    "description": "HydroFlow description.",
+                    "pluginName": "HydroFlow"
+                },
+                {
+                    "title": "Oyster Flow",
+                    "description": "OysterFlow description.",
+                    "pluginName": "OysterFlow"
+                },
+                {
                     "title": "water-quality",
                     "description": "water-quality description.",
                     "pluginName": "water-quality"
