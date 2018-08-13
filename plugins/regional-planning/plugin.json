@@ -1,0 +1,9 @@
+{
+    "css": [
+        "plugins/regional-planning/style.css",
+        "plugins/regional-planning/draw_report/style.css"
+    ],
+    "use": {
+        "tv4": { "attach": "tv4" }
+    }
+}

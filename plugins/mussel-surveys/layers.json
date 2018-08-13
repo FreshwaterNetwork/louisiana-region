@@ -1,0 +1,35 @@
+[
+    {
+        "displayName": "Historic Mollusk Surveys",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana",
+            "name": "LA_Map_Layers2"
+        },
+        "includeLayers": [
+			{
+				"name": "Bayou Bartholomew Mollusk Study (Vidrine 1995)",
+				"includeLayers" : [
+					{
+					    "name": "Bayou Bartholomew"
+					},
+				    {
+					    "name": "Mussels",
+						"includeAllLayers": true
+					},
+					{
+					    "name": "Snails",
+						"includeAllLayers": true
+					},
+					{
+					    "name": "All Species",
+						"downloadUrl": "docs/download/Vidrine_Bayou_Bart_mollusk_1995_HUC12.zip"
+					}
+				]
+			}
+				
+		]
+													
+	}
+]
