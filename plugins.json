@@ -6,8 +6,8 @@
 			"name": "regional-planning"
 		},
 		{
-            "repo": "mussel-surveys",
-            "name": "regional-planning"
+            "repo": "regional-planning",
+            "name": "mussel-surveys"
 		}
     ]
 }
