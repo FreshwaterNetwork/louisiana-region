@@ -9,7 +9,7 @@
         },
         "includeLayers": [
 			{
-			    "name": "Dams",
+			    "name": "Dams (Symbolized by maximum storage (acre feet))",
 				"includeAllLayers" : true
 			},
 			{
