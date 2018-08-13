@@ -5,7 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana",
-            "name": "LA_Map_Layers"
+            "name": "LA_Map_Layers2"
         },
         "includeLayers": [
 			{
