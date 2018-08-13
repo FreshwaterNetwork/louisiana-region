@@ -9,6 +9,10 @@
         },
         "includeLayers": [
 			{
+			    "name": "Dams",
+				"includeAllLayers" : true
+			},
+			{
 				"name": "Rivers and Streams",
 				"includeAllLayers" : true
 			},
