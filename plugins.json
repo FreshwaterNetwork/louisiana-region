@@ -7,8 +7,7 @@
 		},
 		{
             "repo": "mussel-surveys",
-            "name": "regional-planning",
-			"org": "FreshwaterNetwork"
-        }
+            "name": "regional-planning"
+		}
     ]
 }
