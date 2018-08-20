@@ -1,21 +1,24 @@
 {
     "googleAnalyticsPropertyId": "28810260-22",
-	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
-	"titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org/"},
-	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/louisiana.html"},
-	"headerLinks": [
-        { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
-        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
-    ],
-    "regionLinks": [
-	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
-        { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
+    "googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
+    "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
+	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/louisiana.html" },
+    "headerLinks": [
+	{ "text": "GO TO", "url": "#", "items": [
+		{ "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
-		{ "text": "Wisconsin", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
-		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
+		{ "text": "Wisconsin Region", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+		{ "text": "Chesapeake Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
+		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
+	  ]
+	},
+	{ "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
+    { "text": "Partners", "url": "partners.html", "popup": true },
+    { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
+    { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
     ],
     "initialExtent": [
-         -95.55,
+        -95.55,
         29.04,
         -87.49,
         33.29
@@ -31,40 +34,30 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-		"regional-planning",
+        "layer_selector",
+		"sabine_app",
+		"flow_app",
+		"water-quality",
+		"feature_compare",
+		"draw_report",
+		"hydro_alteration",
 		"zoom_to",
-        "measure",
-        "legend_display",
-        "full_extent"
-    
+		"measure",
+		"legend_display",
+		"full_extent",
+		"subregion_toggle"
+       
     ],
-    "print": {
-       "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
-       "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
-       "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
-    },
+    
+    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
+	"identifyEnabled": true,
+    
     "colors": {
-       "primary": "#457545",
-        "secondary": "#81b94d",
-       "tertiary": "#333333",
-       "active": "#6BCA1E"
+        "primary": "#457545",
+        "secondary": "#81b94d"
     },
-   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-   "identifyEnabled": true,
-    "launchpad": {
-            "title": "Explore Louisiana Freshwater!",
-            "description": "<p>Welcome to The Louisiana Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
-            "plugins": [
-			    {
-                    "title": "Regional Planning",
-                    "description": "Base data for rivers, watersheds, managed area and more are provided for mapping and visualization purposes.",
-                    "pluginName": "regional-planning"
-                },
-				{
-                    "title": "Historic Mollusk Surveys",
-                    "description": "We have digitized and mapped historic mollusk surveys in Louisiana.",
-                    "pluginName": "mussel-surveys"
-                },
-            ]
-      }
+	
+    "print": {
+        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+    }
 }
