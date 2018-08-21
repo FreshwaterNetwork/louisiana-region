@@ -54,24 +54,6 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
    "identifyEnabled": true,
     "launchpad": {
-            "title": "Explore Louisiana Freshwater!",
-            "description": "<p>Welcome to The Louisiana Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
-            "plugins": [
-			    {
-                    "title": "Hydro Flow",
-                    "description": "HydroFlow description.",
-                    "pluginName": "HydroFlow"
-                },
-                {
-                    "title": "Oyster Flow",
-                    "description": "OysterFlow description.",
-                    "pluginName": "OysterFlow"
-                },
-                {
-                    "title": "water-quality",
-                    "description": "water-quality description.",
-                    "pluginName": "water-quality"
-                }
-            ]
-      }
+            "html": true
+    }
 }
