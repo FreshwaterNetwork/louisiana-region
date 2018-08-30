@@ -2,7 +2,7 @@
     "plugins": [
 
         {
-			"repo": "regional-planning",
+			"repo": "map-tree",
 			"name": "layer_selector"
 		},
 		{
@@ -24,46 +24,13 @@
 			"name": "feature_compare"
 		},
 		{
-			"repo": "map-tree",
-			"name": "layer_selector"
-		},
-		{	"repo": "map-tree",
-			"name": "layer_selector"
-		},
-		{
-            "repo": "HydroFlow",
-            "name": "flow_app",
-			"org": "FreshwaterNetwork"
-        },
-		{
-			"repo": "water-quality",
-            "name": "water-quality",
-			"org": "FreshwaterNetwork"
-		},	
-        {   
-            "repo": "OysterFlow",
-            "name": "sabine_app",
-			"org": "FreshwaterNetwork"
-        },
-		{
 			"repo": "draw-and-report",
 			"name": "draw_report"
 		},
 		{
-			"repo": "regional-planning",
+			"repo": "map-tree",
 			"name": "hydro_alteration"
-		},
-		{
-			"repo": "feature-compare",
-			"name": "feature_compare"
-		},
-		{
-			"repo": "hydro_alteration",
-			"name": "hydro_alteration",
-			"org": "FreshwaterNetwork"
-		}
-		
-		
+		}		
 		
     ]
 }
