@@ -3,11 +3,36 @@
 
         {
 			"repo": "regional-planning",
-			"name": "regional-planning"
+			"name": "layer_selector"
 		},
 		{
-            "repo": "regional-planning",
-            "name": "mussel-surveys"
+            "repo": "OysterFlow",
+            "name": "sabine_app",
+			"org": "FreshwaterNetwork"
+		},
+		{
+			"repo": "HydroFlow",
+			"name": "flow_app",
+			"org": "FreshwaterNetwork"
+		},
+		{
+			"repo": "water-quality",
+			"name": "water-quality",
+			"org": "FreshwaterNetwork"
+		},
+		{	"repo": "feature-compare",
+			"name": "feature_compare"
+		},
+		{
+			"repo": "draw-and-report",
+			"name": "draw_report"
+		},
+		{
+			"repo": "regional-planning",
+			"name": "hydro_alteration"
 		}
+		
+		
+		
     ]
 }
