@@ -46,18 +46,35 @@
 		"legend_display",
 		"full_extent",
 		"subregion_toggle"
+<<<<<<< HEAD
+<<<<<<< HEAD
     
     ],
     "print": {
        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
        "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
     },
+=======
+       
+    ],
+=======
+       
+    ],
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+    
+    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
+	"identifyEnabled": true,
+    
+<<<<<<< HEAD
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
     "colors": {
-       "primary": "#457545",
-        "secondary": "#81b94d",
-       "tertiary": "#333333",
-       "active": "#6BCA1E"
+        "primary": "#457545",
+        "secondary": "#81b94d"
     },
+<<<<<<< HEAD
+<<<<<<< HEAD
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
    "identifyEnabled": true,
     "launchpad": {
@@ -76,4 +93,15 @@
                 },
             ]
       }
+=======
+=======
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+	
+    "print": {
+        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+    }
+<<<<<<< HEAD
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 }
