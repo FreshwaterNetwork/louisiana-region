@@ -58,12 +58,12 @@
 			    {
                     "title": "Regional Planning",
                     "description": "Base data for rivers, watersheds, managed area and more are provided for mapping and visualization purposes.",
-                    "pluginName": "regional-planning"
+                    "pluginName": "layer_selector"
                 },
 				{
-                    "title": "Historic Mollusk Surveys",
-                    "description": "We have digitized and mapped historic mollusk surveys in Louisiana.",
-                    "pluginName": "mussel-surveys"
+                    "title": "Oyster Flows",
+                    "description": "Control freshwater outflows to see the impact on Oyster Fisheries downstream.",
+                    "pluginName": "sabine_app"
                 },
             ]
       }
