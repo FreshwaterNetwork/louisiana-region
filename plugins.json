@@ -4,6 +4,7 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"repo": "regional-planning",
 			"name": "layer_selector"
 		},
@@ -36,6 +37,12 @@
 		},
 		{
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
+			"repo": "map-tree",
+			"name": "layer_selector"
+		},
+		{
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
             "repo": "HydroFlow",
             "name": "flow_app",
 			"org": "FreshwaterNetwork"
@@ -51,6 +58,9 @@
 			"org": "FreshwaterNetwork"
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 =======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
@@ -61,9 +71,12 @@
 		{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"repo": "regional-planning",
 			"name": "hydro_alteration"
 =======
+=======
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 =======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 			"repo": "feature-compare",
@@ -74,6 +87,9 @@
 			"name": "hydro_alteration",
 			"org": "FreshwaterNetwork"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 =======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97

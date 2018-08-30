@@ -5,7 +5,11 @@
     "dialogHeight": 650,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "WaterFALLService": "http://ec2-54-90-210-130.compute-1.amazonaws.com/wf_api/",
+=======
+    "WaterFALLService": "http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 =======
     "WaterFALLService": "http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97

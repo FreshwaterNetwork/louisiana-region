@@ -48,6 +48,7 @@
 		"subregion_toggle"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     ],
     "print": {
@@ -61,11 +62,18 @@
        
     ],
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
+       
+    ],
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
     
     "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
 	"identifyEnabled": true,
     
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 =======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
@@ -73,6 +81,7 @@
         "primary": "#457545",
         "secondary": "#81b94d"
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
@@ -96,11 +105,16 @@
 =======
 =======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 	
     "print": {
         "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
+=======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
 =======
 >>>>>>> e134b5d5043829a28a40ab99c4787f8d3347de97
