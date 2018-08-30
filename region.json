@@ -1,139 +1,63 @@
-[
-    {
-        "agsSource": {
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana",
-            "folderTitle": "Louisiana Freshwater",
-            "folders": [
-				{
-									"name": "",
-					"services":[										
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Dams (Symbolized by maximum storage (acre feet))", "showLayers": [
-															{"id":1, "parentLayerId":-1 },
-															{"id":2, "parentLayerId":-1 },
-															{"id":3, "parentLayerId":-1 },
-															{"id":4, "parentLayerId":-1 }
-													]
-											}
-										]
-									},
-									{
-									"name": "",
-                    "services": [
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Rivers and Streams", "showLayers": [
-															{"id":6, "parentLayerId":-1 },
-															{"id":7, "parentLayerId":-1 },
-															{"id":8, "parentLayerId":-1 }
-													]
-											}
-										]
-									},
-									{
-									"name": "",
-					"services":[										
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Watersheds", "showLayers": [
-															{"id":10, "parentLayerId":-1 },
-															{"id":11, "parentLayerId":-1 },
-															{"id":12, "parentLayerId":-1 }
-													]
-											}
-										]
-									},
-									{
-									"name": "",
-					"services":[
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Wetlands", "showLayers": [
-															{"id":13, "parentLayerId":-1 }
-													]
-											}
-									]
-									},
-									{
-									"name": "",
-					"services":[
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Groundwater", "showLayers": [
-															{"id":15, "parentLayerId":-1 },
-															{"id":16, "parentLayerId":-1 }
-															
-													]
-											}
-									]
-									},
-									{
-									"name": "",
-					"services":[
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Political Boundaries", "showLayers": [
-															{"id":18, "parentLayerId":-1 },
-															{"id":19, "parentLayerId":-1 }
-													]
-											}
-										]
-									},
-									{
-									"name": "",
-					"services":[
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Managed Areas", "showLayers": [
-															{"id":21, "parentLayerId":-1 },
-															{"id":22, "parentLayerId":21 },
-															{"id":23, "parentLayerId":21 },
-															{"id":24, "parentLayerId":21 },
-															{"id":25, "parentLayerId":21 },
-															{"id":26, "parentLayerId":-1 },
-															{"id":27, "parentLayerId":26 },
-															{"id":28, "parentLayerId":26 },
-															{"id":29, "parentLayerId":26 },
-															{"id":30, "parentLayerId":26 },
-															{"id":31, "parentLayerId":-1 },
-															{"id":32, "parentLayerId":31 },
-															{"id":33, "parentLayerId":31 },
-															{"id":34, "parentLayerId":31 },
-															{"id":35, "parentLayerId":31 },
-															{"id":36, "parentLayerId":-1 },
-															{"id":37, "parentLayerId":36 },
-															{"id":38, "parentLayerId":36 },
-															{"id":39, "parentLayerId":36 },
-															{"id":40, "parentLayerId":36 },
-															{"id":41, "parentLayerId":-1 },
-															{"id":42, "parentLayerId":41 },
-															{"id":43, "parentLayerId":41 },
-															{"id":44, "parentLayerId":41 },
-															{"id":45, "parentLayerId":41 },
-															{"id":46, "parentLayerId":-1 },
-															{"id":47, "parentLayerId":46 },
-															{"id":48, "parentLayerId":46 },
-															{"id":49, "parentLayerId":46 },
-															{"id":50, "parentLayerId":46 },
-															{"id":51, "parentLayerId":-1 },
-															{"id":52, "parentLayerId":51 },
-															{"id":53, "parentLayerId":51 },
-															{"id":54, "parentLayerId":51 },
-															{"id":55, "parentLayerId":-1 },
-															{"id":56, "parentLayerId":55 },
-															{"id":57, "parentLayerId":55 },
-															{"id":58, "parentLayerId":55 },
-															{"id":59, "parentLayerId":55 },
-															{"id":60, "parentLayerId":-1 },
-															{"id":61, "parentLayerId":60 },
-															{"id":62, "parentLayerId":60 },
-															{"id":63, "parentLayerId":60 },
-															{"id":64, "parentLayerId":60 },
-															{"id":65, "parentLayerId":-1 },
-															{"id":66, "parentLayerId":65 },
-															{"id":67, "parentLayerId":65 }
-													]
-											}
-										]
-									},
-									{
-									"name": "",
-					"services":[
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Land Cover", "showLayers": [
-															{"id":68, "parentLayerId":-1 }
-															
-													]
-											}
-									]
-									}
-						]
-		}
-	}
-]
+{
+    "googleAnalyticsPropertyId": "28810260-22",
+    "googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
+    "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
+	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/louisiana.html" },
+    "headerLinks": [
+	{ "text": "GO TO", "url": "#", "items": [
+		{ "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
+		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
+		{ "text": "Wisconsin Region", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+		{ "text": "Chesapeake Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
+		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
+	  ]
+	},
+	{ "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
+    { "text": "Partners", "url": "partners.html", "popup": true },
+    { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
+    { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
+    ],
+    "initialExtent": [
+        -95.55,
+        29.04,
+        -87.49,
+        33.29
+    ],
+    "basemaps": [
+        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
+        { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
+        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
+        { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
+        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+    ],
+    "pluginOrder": [
+        "layer_selector",
+		"sabine_app",
+		"flow_app",
+		"water-quality",
+		"feature_compare",
+		"draw_report",
+		"hydro_alteration",
+		"zoom_to",
+		"measure",
+		"legend_display",
+		"full_extent",
+		"subregion_toggle"
+       
+    ],
+    
+    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
+	"identifyEnabled": true,
+    
+    "colors": {
+        "primary": "#457545",
+        "secondary": "#81b94d"
+    },
+	
+    "print": {
+        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+    }
+}
