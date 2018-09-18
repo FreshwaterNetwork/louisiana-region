@@ -4,33 +4,7 @@
         {
 			"repo": "map-tree",
 			"name": "layer_selector"
-		},
-		{
-            "repo": "OysterFlow",
-            "name": "sabine_app",
-			"org": "FreshwaterNetwork"
-		},
-		{
-			"repo": "HydroFlow",
-			"name": "flow_app",
-			"org": "FreshwaterNetwork"
-		},
-		{
-			"repo": "water-quality",
-			"name": "water-quality",
-			"org": "FreshwaterNetwork"
-		},
-		{	"repo": "feature-compare",
-			"name": "feature_compare"
-		},
-		{
-			"repo": "draw-and-report",
-			"name": "draw_report"
-		},
-		{
-			"repo": "map-tree",
-			"name": "hydro_alteration"
-		}		
+		}	
 		
     ]
 }
