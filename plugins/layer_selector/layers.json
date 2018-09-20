@@ -7,7 +7,7 @@
 				{
 									"name": "",
 					"services":[										
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Dams (Symbolized by maximum storage (acre feet))", "showLayers": [
+											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Dams (Symbolized by maximum storage)", "showLayers": [
 															{"id":1, "parentLayerId":-1 },
 															{"id":2, "parentLayerId":-1 },
 															{"id":3, "parentLayerId":-1 },
