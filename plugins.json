@@ -14,7 +14,12 @@
 			"repo": "HydroFlow",
 			"name": "flow_app",
 			"org" : "FreshwaterNetwork"
-		}			
+		},
+		{
+			"repo": "water-quality",
+			"name": "water-quality",
+			"org" : "FreshwaterNetwork"
+		}	
 		
     ]
 }
