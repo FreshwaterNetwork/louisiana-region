@@ -19,7 +19,11 @@
 			"repo": "water-quality",
 			"name": "water-quality",
 			"org" : "FreshwaterNetwork"
-		}	
+		},
+		{
+			"repo": "map-tree",
+			"name": "hydro_alteration"
+		}
 		
     ]
 }
