@@ -6,6 +6,11 @@
 			"name": "layer_selector"
 		},
 		{
+			"repo": "OysterFlow",
+			"name": "sabine_app",
+			"org" : "FreshwaterNetwork"
+		},
+		{
 			"repo": "HydroFlow",
 			"name": "flow_app",
 			"org" : "FreshwaterNetwork"
