@@ -27,6 +27,10 @@
 		{
 			"repo": "feature-compare",
 			"name": "feature_compare"
+		},
+		{
+			"repo": "draw-and-report",
+			"name": "draw_report"
 		}
 		
     ]
