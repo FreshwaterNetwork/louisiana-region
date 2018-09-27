@@ -35,6 +35,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
+		"sabine_app",
 		"flow_app",
 		"zoom_to",
 		"measure",
