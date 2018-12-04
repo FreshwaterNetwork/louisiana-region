@@ -41,7 +41,7 @@
 									{
 									"name": "",
 					"services":[
-											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Wetlands", "showLayers": [
+											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "LDEQ Ecoregions", "showLayers": [
 															{"id":13, "parentLayerId":-1 }
 													]
 											}
@@ -50,9 +50,18 @@
 									{
 									"name": "",
 					"services":[
+											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Wetlands", "showLayers": [
+															{"id":14, "parentLayerId":-1 }
+													]
+											}
+										]
+									},
+									{
+									"name": "",
+					"services":[
 											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Groundwater", "showLayers": [
-															{"id":15, "parentLayerId":-1 },
-															{"id":16, "parentLayerId":-1 }
+															{"id":16, "parentLayerId":-1 },
+															{"id":17, "parentLayerId":-1 }
 															
 													]
 											}
@@ -62,8 +71,8 @@
 									"name": "",
 					"services":[
 											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Political Boundaries", "showLayers": [
-															{"id":18, "parentLayerId":-1 },
-															{"id":19, "parentLayerId":-1 }
+															{"id":19, "parentLayerId":-1 },
+															{"id":20, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -72,53 +81,53 @@
 									"name": "",
 					"services":[
 											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Managed Areas", "showLayers": [
-															{"id":21, "parentLayerId":-1 },
-															{"id":22, "parentLayerId":21 },
-															{"id":23, "parentLayerId":21 },
-															{"id":24, "parentLayerId":21 },
-															{"id":25, "parentLayerId":21 },
-															{"id":26, "parentLayerId":-1 },
-															{"id":27, "parentLayerId":26 },
-															{"id":28, "parentLayerId":26 },
-															{"id":29, "parentLayerId":26 },
-															{"id":30, "parentLayerId":26 },
-															{"id":31, "parentLayerId":-1 },
-															{"id":32, "parentLayerId":31 },
-															{"id":33, "parentLayerId":31 },
-															{"id":34, "parentLayerId":31 },
-															{"id":35, "parentLayerId":31 },
-															{"id":36, "parentLayerId":-1 },
-															{"id":37, "parentLayerId":36 },
-															{"id":38, "parentLayerId":36 },
-															{"id":39, "parentLayerId":36 },
-															{"id":40, "parentLayerId":36 },
-															{"id":41, "parentLayerId":-1 },
-															{"id":42, "parentLayerId":41 },
-															{"id":43, "parentLayerId":41 },
-															{"id":44, "parentLayerId":41 },
-															{"id":45, "parentLayerId":41 },
-															{"id":46, "parentLayerId":-1 },
-															{"id":47, "parentLayerId":46 },
-															{"id":48, "parentLayerId":46 },
-															{"id":49, "parentLayerId":46 },
-															{"id":50, "parentLayerId":46 },
-															{"id":51, "parentLayerId":-1 },
-															{"id":52, "parentLayerId":51 },
-															{"id":53, "parentLayerId":51 },
-															{"id":54, "parentLayerId":51 },
-															{"id":55, "parentLayerId":-1 },
-															{"id":56, "parentLayerId":55 },
-															{"id":57, "parentLayerId":55 },
-															{"id":58, "parentLayerId":55 },
-															{"id":59, "parentLayerId":55 },
-															{"id":60, "parentLayerId":-1 },
-															{"id":61, "parentLayerId":60 },
-															{"id":62, "parentLayerId":60 },
-															{"id":63, "parentLayerId":60 },
-															{"id":64, "parentLayerId":60 },
-															{"id":65, "parentLayerId":-1 },
-															{"id":66, "parentLayerId":65 },
-															{"id":67, "parentLayerId":65 }
+															{"id":22, "parentLayerId":-1 },
+															{"id":23, "parentLayerId":22 },
+															{"id":24, "parentLayerId":22 },
+															{"id":25, "parentLayerId":22 },
+															{"id":26, "parentLayerId":22 },
+															{"id":27, "parentLayerId":-1 },
+															{"id":28, "parentLayerId":27 },
+															{"id":29, "parentLayerId":27 },
+															{"id":30, "parentLayerId":27 },
+															{"id":31, "parentLayerId":27 },
+															{"id":32, "parentLayerId":-1 },
+															{"id":33, "parentLayerId":32 },
+															{"id":34, "parentLayerId":32 },
+															{"id":35, "parentLayerId":32 },
+															{"id":36, "parentLayerId":32 },
+															{"id":37, "parentLayerId":-1 },
+															{"id":38, "parentLayerId":37 },
+															{"id":39, "parentLayerId":37 },
+															{"id":40, "parentLayerId":37 },
+															{"id":41, "parentLayerId":37 },
+															{"id":42, "parentLayerId":-1 },
+															{"id":43, "parentLayerId":42 },
+															{"id":44, "parentLayerId":42 },
+															{"id":45, "parentLayerId":42 },
+															{"id":46, "parentLayerId":42 },
+															{"id":47, "parentLayerId":-1 },
+															{"id":48, "parentLayerId":47 },
+															{"id":49, "parentLayerId":47 },
+															{"id":50, "parentLayerId":47 },
+															{"id":51, "parentLayerId":47 },
+															{"id":52, "parentLayerId":-1 },
+															{"id":53, "parentLayerId":52 },
+															{"id":54, "parentLayerId":52 },
+															{"id":55, "parentLayerId":52 },
+															{"id":56, "parentLayerId":-1 },
+															{"id":57, "parentLayerId":56 },
+															{"id":58, "parentLayerId":56 },
+															{"id":59, "parentLayerId":56 },
+															{"id":60, "parentLayerId":56 },
+															{"id":61, "parentLayerId":-1 },
+															{"id":62, "parentLayerId":61 },
+															{"id":63, "parentLayerId":61 },
+															{"id":64, "parentLayerId":61 },
+															{"id":65, "parentLayerId":61 },
+															{"id":66, "parentLayerId":-1 },
+															{"id":67, "parentLayerId":66 },
+															{"id":68, "parentLayerId":66 }
 													]
 											}
 										]
@@ -127,7 +136,7 @@
 									"name": "",
 					"services":[
 											{ "name": "LA_Map_Layers_master", "type": "dynamic", "displayName": "Land Cover", "showLayers": [
-															{"id":68, "parentLayerId":-1 }
+															{"id":69, "parentLayerId":-1 }
 															
 													]
 											}
