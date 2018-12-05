@@ -1,48 +1,44 @@
 {
     "googleAnalyticsPropertyId": "28810260-22",
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
-	"titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org/"},
-	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/louisiana.html"},
+	"titleMain": { "text": "Freshwater Network", "url": ""},
+	"titleDetail": { "text": "Florida Freshwater", "url": ""},
 	"headerLinks": [
         { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
     ],
     "regionLinks": [
-	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
+	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
         { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
 		{ "text": "Wisconsin", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
 		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
-         -95.55,
-        29.04,
-        -87.49,
-        33.29
+        -87.2,
+        24.6,
+        -77.8,
+        31.8
     ],
     "basemaps": [
-        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
-        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+		{ "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
-        { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
-        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
-        { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
-        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
-        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
 		"regional-planning",
-        "mollusk-mapper",
-		"zoom_to",
+		"Aquifers",
+	     "zoom_to",
         "measure",
         "legend_display",
         "full_extent"
-    
+
     ],
     "print": {
-       "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
-       "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
-       "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+         "printServerUrl": "http://cumulus-web-adapter-1827610810.us-west-1.elb.amazonaws.com/arcgis/rest/services/nascience/ny_ExportWebMap/GPServer/Export%20Web%20Map",
+	"customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+	"headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
     },
     "colors": {
        "primary": "#457545",
@@ -53,14 +49,19 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
    "identifyEnabled": true,
     "launchpad": {
-            "title": "Explore Louisiana Freshwater!",
-            "description": "<p>Welcome to The Louisiana Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
+            "title": "Explore Florida Freshwater",
+            "description": "<p>With thousands of lakes, scenic rivers, more springs than anywhere else in the world and the unique Everglades ecosystem, freshwater is an integral part of Florida’s iconic landscape. Yet, in the state with the third largest population in the country - over 20 million people - freshwater cannot be taken for granted. The mapping tools below allow you to explore data relevant to Florida’s freshwater resources.</p>",
             "plugins": [
-			    {
-                    "title": "Mollusk Mapper 9000",
-                    "description": "HydroFlow description.",
-                    "pluginName": "mollusk-mapper"
-                }
+				{
+					"title": "Sedimentation",
+					"description": "The Yellow River is one of 3 large rivers that flow into Pensacola Bay.  An assessment of the Yellow River watershed identified 140 impaired river corridor sites and identified moderate or high degrees of sedimentation risk at 339 unpaved road crossings.  Use this app to examine the assessment data.  Read a <a href='docs/PS Summary formatted.pdf' target='_blank'><b>short summary</b><a> of the project or the <a href='docs/PS_FINAL_REPORT.pdf' target='_blank'><b>full report</b><a>. <img src='img/GS_sediment.png'>",
+					"pluginName": "regional-planning"
+				},
+				{
+					"title": "Aquifers",
+					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the area of highest recharge in Florida and developed a map of how water use and nitrogen loads vary across it. Use this app to examine the results of the analysis.  Read a <a href='docs/AFA Summary.pdf' target='_blank'><b> short summary</b><a></br> of the project or the <a href='docs/AFA Final Report web.pdf' target='_blank'><b> full report</b><a></br>. <img src='img/GS_aquifer_resize.png'>",
+					"pluginName": "Aquifers"
+				}
             ]
       }
 }
