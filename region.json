@@ -31,9 +31,7 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "HydroFlow",
-        "OysterFlow",
-        "water-quality",
+        "mollusk-mapper",
 		"zoom_to",
         "measure",
         "legend_display",
