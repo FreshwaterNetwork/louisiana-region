@@ -1,0 +1,22 @@
+[
+    {
+        "displayName": "Yellow River",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Florida",
+            "name": "FL_map_layers"
+        },
+        "includeLayers": [
+            {
+               "name": "Yellow River Sedimentation Assessment",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Supplemental Layers",
+			   "includeAllLayers": true
+			}
+		]
+	}
+
+]
