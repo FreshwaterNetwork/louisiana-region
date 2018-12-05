@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Mollusk Mapper 9000",
+        "displayName": "Yellow River",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -12,7 +12,7 @@
                "name": "Bayou Bartholomew Mollusk Study (Vidrine 1995)",
 			   "includeAllLayers": true
 			}
-
 		]
 	}
+
 ]
