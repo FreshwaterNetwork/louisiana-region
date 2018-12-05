@@ -58,19 +58,9 @@
             "description": "<p>Welcome to The Louisiana Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
             "plugins": [
 			    {
-                    "title": "Hydro Flow",
+                    "title": "Mollusk Mapper 9000",
                     "description": "HydroFlow description.",
-                    "pluginName": "HydroFlow"
-                },
-                {
-                    "title": "Oyster Flow",
-                    "description": "OysterFlow description.",
-                    "pluginName": "OysterFlow"
-                },
-                {
-                    "title": "water-quality",
-                    "description": "water-quality description.",
-                    "pluginName": "water-quality"
+                    "pluginName": "mollusk-mapper"
                 }
             ]
       }
