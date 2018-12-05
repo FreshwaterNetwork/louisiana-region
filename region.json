@@ -28,7 +28,7 @@
     ],
     "pluginOrder": [
 		"regional-planning",
-		"Aquifers",
+		"mollusk-mapper",
 	     "zoom_to",
         "measure",
         "legend_display",
@@ -60,7 +60,7 @@
 				{
 					"title": "Aquifers",
 					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the area of highest recharge in Florida and developed a map of how water use and nitrogen loads vary across it. Use this app to examine the results of the analysis.  Read a <a href='docs/AFA Summary.pdf' target='_blank'><b> short summary</b><a></br> of the project or the <a href='docs/AFA Final Report web.pdf' target='_blank'><b> full report</b><a></br>. <img src='img/GS_aquifer_resize.png'>",
-					"pluginName": "Aquifers"
+					"pluginName": "mollusk-mapper"
 				}
             ]
       }
