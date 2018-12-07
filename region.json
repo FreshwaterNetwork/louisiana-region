@@ -27,6 +27,7 @@
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
+		"regional-planning",
 		"mollusk-mapper",
 	     "zoom_to",
         "measure",
