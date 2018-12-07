@@ -15,10 +15,10 @@
 		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
-        -87.2,
-        24.6,
-        -77.8,
-        31.8
+        -92.08,
+        32.69,
+        -91.58,
+        33.08
     ],
     "basemaps": [
 		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
@@ -27,7 +27,6 @@
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
-		"regional-planning",
 		"mollusk-mapper",
 	     "zoom_to",
         "measure",
@@ -50,16 +49,11 @@
    "identifyEnabled": true,
     "launchpad": {
             "title": "Explore Florida Freshwater",
-            "description": "<p>With thousands of lakes, scenic rivers, more springs than anywhere else in the world and the unique Everglades ecosystem, freshwater is an integral part of Florida’s iconic landscape. Yet, in the state with the third largest population in the country - over 20 million people - freshwater cannot be taken for granted. The mapping tools below allow you to explore data relevant to Florida’s freshwater resources.</p>",
+            "description": "<p>With estimates varying between 80,000 and 150,000 described species, mollusks are the 2nd most diverse animal group (after arthropods), thus representing a large part of evolutionary history that happened on our planet. Despite the fact that mollusks are very susceptible to changes in their environment because of their permeable skin and soft body (often with an exoskeleton in the form of a shell), they have adapted to all of the main environments of our planet—marine, freshwater, and terrestrial. All classes of living mollusks exist in the sea, and all habitats have mollusks7. Mollusks are very abundant in some ecosystems. In many marine communities the dominant organisms of the second trophic level (primary consumers of plant productivity) are mollusks.</p>",
             "plugins": [
 				{
-					"title": "Sedimentation",
-					"description": "The Yellow River is one of 3 large rivers that flow into Pensacola Bay.  An assessment of the Yellow River watershed identified 140 impaired river corridor sites and identified moderate or high degrees of sedimentation risk at 339 unpaved road crossings.  Use this app to examine the assessment data.  Read a <a href='docs/PS Summary formatted.pdf' target='_blank'><b>short summary</b><a> of the project or the <a href='docs/PS_FINAL_REPORT.pdf' target='_blank'><b>full report</b><a>. <img src='img/GS_sediment.png'>",
-					"pluginName": "regional-planning"
-				},
-				{
-					"title": "Aquifers",
-					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the area of highest recharge in Florida and developed a map of how water use and nitrogen loads vary across it. Use this app to examine the results of the analysis.  Read a <a href='docs/AFA Summary.pdf' target='_blank'><b> short summary</b><a></br> of the project or the <a href='docs/AFA Final Report web.pdf' target='_blank'><b> full report</b><a></br>. <img src='img/GS_aquifer_resize.png'>",
+					"title": "Mollusk Mapper 9000",
+					"description": "View historic mollusk surveys. <img src='img/GS_aquifer_resize.png'>",
 					"pluginName": "mollusk-mapper"
 				}
             ]
