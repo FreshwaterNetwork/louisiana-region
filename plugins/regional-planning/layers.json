@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Mollusk Mapper 9000",
+        "displayName": "Base Layers",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
