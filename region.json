@@ -54,7 +54,7 @@
             "plugins": [
 				{
 					"title": "Mollusk Mapper 9000",
-					"description": "View historic mollusk surveys. <img src='img/GS_aquifer_resize.png'>",
+					"description": "There is a wealth of mollusk data that can be gleaned from old reports.  We have digitized mollusk sample stations using provided maps and aggregated the stations to U.S.G.S. 12-digit Hydrologic units (HUC 12). These data should not be taken to represent the actual range of each species but as a pressence absence matrix for each HUC 12.   <img src='img/GS_aquifer_resize.png'>",
 					"pluginName": "mollusk-mapper"
 				}
             ]
