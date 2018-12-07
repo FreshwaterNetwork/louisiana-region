@@ -49,7 +49,7 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
    "identifyEnabled": true,
     "launchpad": {
-            "title": "Explore Florida Freshwater",
+            "title": "Explore Freshwater Mollusks",
             "description": "<p>With estimates varying between 80,000 and 150,000 described species, mollusks are the 2nd most diverse animal group (after arthropods), thus representing a large part of evolutionary history that happened on our planet. Despite the fact that mollusks are very susceptible to changes in their environment because of their permeable skin and soft body (often with an exoskeleton in the form of a shell), they have adapted to all of the main environments of our planet—marine, freshwater, and terrestrial. All classes of living mollusks exist in the sea, and all habitats have mollusks7. Mollusks are very abundant in some ecosystems. In many marine communities the dominant organisms of the second trophic level (primary consumers of plant productivity) are mollusks.</p>",
             "plugins": [
 				{
