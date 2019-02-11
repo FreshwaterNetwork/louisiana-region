@@ -17,6 +17,14 @@
 			   "includeAllLayers": true
 			},
 			{
+				"name": "Bayou Bartholomew Mollusk Study (Vidrine 1995)",
+				"includeAllLayers": true
+			},
+			{
+				"name": "Fish",
+				"includeAllLayers": true
+			},
+			{
                "name": "Watersheds",
 			   "includeAllLayers": true
 			},
@@ -25,6 +33,18 @@
 			},
 			{
 				"name": "Groundwater",
+				"includeAllLayers": true
+			},
+			{
+				"name": "Political Baoundaries",
+				"includeAllLayers": true
+			},
+			{
+				"name": "Managed Areas",
+				"includeAllLayers": true
+			},
+			{
+				"name": "Land Cover Classifications",
 				"includeAllLayers": true
 			}
 			
