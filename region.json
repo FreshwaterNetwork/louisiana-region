@@ -53,7 +53,7 @@
             "plugins": [
 				{
 					"title": "Aquatic Species Mapper",
-					"description": "Freshwater mollusk data was digitized from the report from Malcolm Vidrine “River Survey of Freshwater Mollusks of Bayou Bartholomew in Northeastern Louisiana” (1995).  All sample stations were aggregated to U.S.G.S. 12-digit Hydrologic units (HUC 12).  The LDWF Inland Fisheries data set was used as the raw data for fish species.  Fish sampling stations were aggregated to U.S.G.S. 18-digit Hydrologic units (HUC 8).",
+					"description": "Freshwater mollusk data was digitized from the report “River Survey of Freshwater Mollusks of Bayou Bartholomew in Northeastern Louisiana” (Vidrine 1995).  All sample stations were aggregated to U.S.G.S. 12-digit Hydrologic units (HUC 12).  The LDWF Inland Fisheries data set was used as the raw data for fish species.  Fish sampling stations were aggregated to U.S.G.S. 18-digit Hydrologic units (HUC 8).",
 					"pluginName": "regional-planning"
 				}
             ]
