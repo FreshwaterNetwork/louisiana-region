@@ -28,7 +28,6 @@
     ],
     "pluginOrder": [
 		"regional-planning",
-		"mollusk-mapper",
 	     "zoom_to",
         "measure",
         "legend_display",
