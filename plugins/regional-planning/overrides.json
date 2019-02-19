@@ -3,5 +3,6 @@
     "width": 400,
     "resizable": false,
     "hasCustomPrint": false,
-	"name": "Aquifers"
+	"name": "Aquatic Species Mapper",
+	"description": "Explore watershed scale aquatic species data."
 }
