@@ -2,7 +2,7 @@
     "googleAnalyticsPropertyId": "",
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
 	"titleMain": { "text": "Freshwater Network", "url": ""},
-	"titleDetail": { "text": "Mollusk Mapper 9000", "url": ""},
+	"titleDetail": { "text": "Aquatic Species Mapper", "url": ""},
 	"headerLinks": [
         { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
@@ -49,12 +49,12 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
    "identifyEnabled": true,
     "launchpad": {
-            "title": "Explore Freshwater Mollusks",
-            "description": "<p>With estimates varying between 80,000 and 150,000 described species, mollusks are the 2nd most diverse animal group (after arthropods), thus representing a large part of evolutionary history that happened on our planet. Despite the fact that mollusks are very susceptible to changes in their environment because of their permeable skin and soft body (often with an exoskeleton in the form of a shell), they have adapted to all of the main environments of our planet—marine, freshwater, and terrestrial. All classes of living mollusks exist in the sea, and all habitats have mollusks7. Mollusks are very abundant in some ecosystems. In many marine communities the dominant organisms of the second trophic level (primary consumers of plant productivity) are mollusks.</p>",
+            "title": "Explore Species Data",
+            "description": "<p>Louisiana’s waterways are home to diverse aquatic environments that are host to many species including fish and freshwater mollusks.  Much of what we know about these species comes from concerted sampling efforts by The Department of Wildlife and Fisheries, universities and other researchers.  The Aquatic Species Mapper provides a watershed centric view of existing Fish and Mollusk sampling data.  Discreet sample data has been aggregated to watersheds by totaling all species found in each watershed.  Each species is then exported as a new layer comprised of the watersheds from which it has been recovered.  We also have “All Species” layers that show all the species that have been found within each watershed.  Individual species layers are not an indication of habitat range of the species, but a reflection of where sampling has occurred and can be used to identify data gaps.<img src='img/A_oxyrhynchus.png'></p>",
             "plugins": [
 				{
-					"title": "Regional Planning",
-					"description": "There is a wealth of mollusk data that can be gleaned from old reports.  We have digitized mollusk sample stations using provided maps and aggregated the stations to U.S.G.S. 12-digit Hydrologic units (HUC 12). These data should not be taken to represent the actual range of each species but as a pressence absence matrix for each HUC 12.   <img src='img/GS_aquifer_resize.png'>",
+					"title": "Aquatic Species Mapper",
+					"description": "Freshwater mollusk data was digitized from the report from Malcolm Vidrine “River Survey of Freshwater Mollusks of Bayou Bartholomew in Northeastern Louisiana” (1995).  All sample stations were aggregated to U.S.G.S. 12-digit Hydrologic units (HUC 12).  The LDWF Inland Fisheries data set was used as the raw data for fish species.  Fish sampling stations were aggregated to U.S.G.S. 18-digit Hydrologic units (HUC 8).",
 					"pluginName": "regional-planning"
 				}
             ]
