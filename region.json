@@ -15,10 +15,10 @@
 		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
-        -92.08,
-        32.69,
-        -91.58,
-        33.08
+        -95.55,
+        29.04,
+        -87.49,
+        33.29
     ],
     "basemaps": [
 		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
