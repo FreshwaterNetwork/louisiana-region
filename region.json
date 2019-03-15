@@ -1,18 +1,18 @@
 {
     "googleAnalyticsPropertyId": "28810260-22",
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
-	"titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org/"},
-	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "http://freshwaternetwork.org/louisiana.html"},
+	"titleMain": { "text": "Freshwater Network", "url": "https://freshwaternetwork.org/"},
+	"titleDetail": { "text": "Louisiana Freshwater Assessment", "url": "https://freshwaternetwork.org/louisiana.html"},
 	"headerLinks": [
         { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
-        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+        { "text": "Legal Disclosure", "url": "https://coastalresilience.org/terms-of-use/" }
     ],
     "regionLinks": [
-	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
-        { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
-		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
-		{ "text": "Wisconsin", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
-		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
+	{ "text": "Louisiana", "url": "https://maps.freshwaternetwork.org/chesapeake/" },
+        { "text": "Mississippi", "url": "https://maps.freshwaternetwork.org/mississippi/" },
+		{ "text": "Northeast Region", "url": "https://maps.freshwaternetwork.org/northeast/" },
+		{ "text": "Wisconsin", "url": "https://maps.freshwaternetwork.org/wisconsin/" },
+		{ "text": "Chesapeake", "url": "https://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
          -95.55,
@@ -21,14 +21,14 @@
         33.29
     ],
     "basemaps": [
-        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
-        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
-        { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
-        { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
-        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
-        { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
-        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
-        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+        { "name": "Topographic"        , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "Imagery"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "National Geographic", "url": "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
+        { "name": "Ocean"              , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
+        { "name": "Physical"           , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
+        { "name": "Shaded Relief"      , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
+        { "name": "Streets"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+        { "name": "Terrain"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
         "HydroFlow",
@@ -41,9 +41,9 @@
     
     ],
     "print": {
-       "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+       "printServerUrl": "https://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
        "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
-       "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+       "headerLogoPath": "https://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
     },
     "colors": {
        "primary": "#457545",

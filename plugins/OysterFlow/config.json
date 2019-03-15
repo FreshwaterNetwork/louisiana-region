@@ -3,7 +3,7 @@
     "toolbarName": "Oyster Flows",
     "dialogWidth": 500,
     "dialogHeight": 650,
-    "WaterFALLService": "http://ec2-54-90-210-130.compute-1.amazonaws.com/wf_api/",
+    "WaterFALLService": "https://ec2-54-90-210-130.compute-1.amazonaws.com/wf_api/",
     "infoGraphic": "plugins/sabine_app/OysterFlows667x10.jpg",
     "mapCenter": {
       "x": -94.352,
@@ -30,14 +30,14 @@
       "spatialReference": { "wkid": 4326 }
     },
     "layers": {
-      "Reservoir": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/12",
-      "SabineRiver": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/10",
-      "Lake": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/13",
-      "NechesRiver": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/9",
-      "ToledoDam": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/8",
-      "SabineOysterReef": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/11",
-      "CalcasieuRiver": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/14",
-      "CalcasieuLake": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/15"
+      "Reservoir": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/12",
+      "SabineRiver": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/10",
+      "Lake": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/13",
+      "NechesRiver": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/9",
+      "ToledoDam": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/8",
+      "SabineOysterReef": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/11",
+      "CalcasieuRiver": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/14",
+      "CalcasieuLake": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/15"
     },
     "stations": [
       {
