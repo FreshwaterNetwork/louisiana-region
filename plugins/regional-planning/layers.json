@@ -1,0 +1,49 @@
+[
+    {
+        "displayName": "Louisiana Freshwater",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana",
+            "name": "LA_Map_Layers_master"
+        },
+        "includeLayers": [
+            {
+               "name": "Dams (Symbolized by maximum storage)",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Rivers and Streams",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Watersheds",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "LDEQ Ecoregions",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Wetlands",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Groundwater",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Political Boundaries",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Managed Areas",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Land Cover Classifications",
+			   "includeAllLayers": true
+			}
+		]	
+	}
+]

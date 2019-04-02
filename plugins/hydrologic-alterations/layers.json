@@ -1,0 +1,37 @@
+[
+    {
+        "displayName": "Hydrologic Alterations",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana",
+            "name": "Hydrologic_Alteration"
+        },
+        "includeLayers": [
+            {
+               "name": "Hydrologic Alteration Features",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "HUC8 Alteration Assessments",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "HUC12 Alteration Assessments",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "LDEQ Subsegment Alteration Assessments",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "LA Parishes Alteration Assessments",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "U.S. Congressional District Assessments",
+			   "includeAllLayers": true
+			}
+		]	
+	}
+]
