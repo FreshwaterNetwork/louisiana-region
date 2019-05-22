@@ -30,14 +30,14 @@
       "spatialReference": { "wkid": 4326 }
     },
     "layers": {
-      "Reservoir": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/12",
-      "SabineRiver": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/10",
-      "Lake": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/13",
-      "NechesRiver": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/9",
-      "ToledoDam": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/8",
-      "SabineOysterReef": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/11",
-      "CalcasieuRiver": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/14",
-      "CalcasieuLake": "https://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/15"
+      "Reservoir": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/12",
+      "SabineRiver": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/10",
+      "Lake": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/13",
+      "NechesRiver": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/9",
+      "ToledoDam": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/8",
+      "SabineOysterReef": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/11",
+      "CalcasieuRiver": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/14",
+      "CalcasieuLake": "https://cirrus.tnc.org/arcgis/rest/services/FN_Louisiana/RTI/MapServer/15"
     },
     "stations": [
       {
