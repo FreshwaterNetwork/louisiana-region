@@ -3,7 +3,7 @@
     "toolbarName": "Oyster Flows",
     "dialogWidth": 500,
     "dialogHeight": 650,
-    "WaterFALLService": "https://ec2-54-90-210-130.compute-1.amazonaws.com/wf_api/",
+    "WaterFALLService": "https://rti.tnc.org/wf_api/",
     "infoGraphic": "plugins/sabine_app/OysterFlows667x10.jpg",
     "mapCenter": {
       "x": -94.352,
