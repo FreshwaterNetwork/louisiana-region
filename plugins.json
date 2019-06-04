@@ -10,14 +10,14 @@
 	    "org": "FreshwaterNetwork"
     },	
     {   
-          "repo": "OysterFlow",
-          "name": "OysterFlow",
-	  "org": "FreshwaterNetwork"
+        "repo": "OysterFlow",
+        "name": "OysterFlow",
+	    "org": "FreshwaterNetwork"
     },
 	{
-	  "repo": "water-quality",
-          "name": "water-quality",
-	  "org": "FreshwaterNetwork"
+	    "repo": "water-quality",
+        "name": "water-quality",
+	    "org": "FreshwaterNetwork"
 	}
    ]
 }
