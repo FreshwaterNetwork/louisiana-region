@@ -1,19 +1,23 @@
 {
     "plugins": [
 	{
-          "repo": "HydroFlow",
-          "name": "HydroFlow",
-	  "org": "FreshwaterNetwork"
-        },	
-        {   
+ 		"repo": "regional-planning",
+ 		"name": "regional-planning"
+ 	},
+	{
+        "repo": "HydroFlow",
+        "name": "HydroFlow",
+	    "org": "FreshwaterNetwork"
+    },	
+    {   
           "repo": "OysterFlow",
           "name": "OysterFlow",
 	  "org": "FreshwaterNetwork"
-        },
+    },
 	{
 	  "repo": "water-quality",
           "name": "water-quality",
 	  "org": "FreshwaterNetwork"
 	}
-    ]
+   ]
 }
