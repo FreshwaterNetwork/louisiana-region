@@ -31,6 +31,7 @@
         { "name": "Terrain"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
+		"regional-planning"
         "HydroFlow",
         "OysterFlow",
         "water-quality",
