@@ -1,6 +1,6 @@
  [
 	{
-        "displayName": "Freshwater GIS",
+        "displayName": "",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
