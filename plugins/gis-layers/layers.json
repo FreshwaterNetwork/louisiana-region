@@ -1,6 +1,6 @@
  [
 	{
-        "displayName": "Base Layers",
+        "displayName": "Freshwater GIS",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -9,7 +9,7 @@
         },
 		"includeLayers": [
 			{
-			   "name": "Dams (Symbolized by maximum storage)",
+			   "name": "Dams and Reservoirs",
 			   "includeAllLayers": true
 			},
 			{
@@ -18,6 +18,10 @@
 			},
 			{
 			   "name": "Watersheds",
+			   "includeAllLayers": true
+			},
+			{
+			   "name": "Hydrologic Alteration Assessments",
 			   "includeAllLayers": true
 			},
 			{
