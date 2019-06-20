@@ -8,11 +8,12 @@
         { "text": "Legal Disclosure", "url": "https://coastalresilience.org/terms-of-use/" }
     ],
     "regionLinks": [
-        { "text": "Mississippi", "url": "https://maps.freshwaternetwork.org/mississippi/" },
+		{ "text": "Chesapeake", "url": "https://maps.freshwaternetwork.org/chesapeake/" },
 		{ "text": "Florida", "url": "https://maps.freshwaternetwork.org/florida/" },
+        { "text": "Mississippi", "url": "https://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "https://maps.freshwaternetwork.org/northeast/" },
-		{ "text": "Wisconsin", "url": "https://maps.freshwaternetwork.org/wisconsin/" },
-		{ "text": "Chesapeake", "url": "https://maps.freshwaternetwork.org/chesapeake/" }
+		{ "text": "Wisconsin", "url": "https://maps.freshwaternetwork.org/wisconsin/" }
+		
     ],
     "initialExtent": [
          -95.55,
