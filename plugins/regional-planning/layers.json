@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "",
+        "displayName": "Data Layers",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
