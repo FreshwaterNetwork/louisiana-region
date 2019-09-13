@@ -20,6 +20,11 @@
       "org": "FreshwaterNetwork"
     },
     {
+      "repo": "conservation-delivery-application",
+      "name": "conservation-delivery-application",
+      "org": "FreshwaterNetwork"
+    },
+    {
       "repo": "regional-planning",
       "name": "hydrologic-alterations"
     }
