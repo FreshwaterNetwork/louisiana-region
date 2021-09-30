@@ -8,7 +8,12 @@
         "repo": "HydroFlow",
         "name": "HydroFlow",
 	    "org": "FreshwaterNetwork"
-    },	
+    },
+    {
+      "repo": "conservation-delivery-application",
+      "name": "conservation-delivery-application",
+      "org": "FreshwaterNetwork"
+    },	    
     {   
         "repo": "OysterFlow",
         "name": "OysterFlow",
